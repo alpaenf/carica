@@ -1,8 +1,8 @@
 /**
- * Carica Gemilang - Smooth Page Transition & Navbar Script
+ * Carica Gemilang - Smooth Page Transition & Navbar Script (Optimized)
  */
 (function () {
-  // Inject CSS transition styles
+  // Inject clean instant transition styles
   const style = document.createElement('style');
   style.id = 'smooth-transition-style';
   style.textContent = `
@@ -10,32 +10,16 @@
       scroll-behavior: smooth;
     }
     body {
-      opacity: 0;
-      transition: opacity 0.22s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    body.page-loaded {
       opacity: 1;
+      transition: opacity 0.12s ease-out;
     }
     body.page-leaving {
-      opacity: 0;
+      opacity: 0.15;
     }
   `;
   document.head.appendChild(style);
 
-  // Mark page as loaded once DOM is interactive
-  function onReady() {
-    requestAnimationFrame(() => {
-      document.body.classList.add('page-loaded');
-    });
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', onReady);
-  } else {
-    onReady();
-  }
-
-  // Intercept local link clicks for smooth fade transitions
+  // Intercept navigation clicks for instantaneous feedback without lag
   document.addEventListener('click', function (e) {
     const link = e.target.closest('a');
     if (!link) return;
@@ -58,30 +42,28 @@
       return;
     }
 
-    // Check if it's an internal HTML link or same-origin link
-    const url = new URL(link.href, window.location.href);
-    if (url.origin === window.location.origin) {
-      // If clicking same page anchor, let standard smooth scroll handle it
-      if (url.pathname === window.location.pathname && url.hash) {
-        return;
+    try {
+      const url = new URL(link.href, window.location.href);
+      if (url.origin === window.location.origin) {
+        if (url.pathname === window.location.pathname && url.hash) {
+          return;
+        }
+
+        // Quick 50ms tactile transition so it feels snappy and immediate
+        e.preventDefault();
+        document.body.classList.add('page-leaving');
+
+        setTimeout(() => {
+          window.location.href = link.href;
+        }, 50);
       }
-
-      // Smooth fade-out before navigation
-      e.preventDefault();
-      document.body.classList.remove('page-loaded');
-      document.body.classList.add('page-leaving');
-
-      setTimeout(() => {
-        window.location.href = link.href;
-      }, 180);
+    } catch (err) {
+      // Fallback normal navigation
     }
   });
 
-  // Handle back/forward cache in browsers
+  // Restore state on BFCache
   window.addEventListener('pageshow', function (e) {
-    if (e.persisted) {
-      document.body.classList.remove('page-leaving');
-      document.body.classList.add('page-loaded');
-    }
+    document.body.classList.remove('page-leaving');
   });
 })();
