@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/beranda.html"
+    }
+  ],
+  "cleanUrls": true
+}
+
