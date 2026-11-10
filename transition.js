@@ -1,5 +1,5 @@
 /**
- * Carica Gemilang - Smooth Transition & Global Mobile Navigation Handler
+ * Carica Gemilang - Smooth Transition & Global Responsive Helper
  */
 (function () {
   // 1. Inject responsive viewport meta & smooth transition styling
@@ -46,63 +46,48 @@
   `;
   document.head.appendChild(style);
 
-  // 2. Ensure Mobile Hamburger Menu Works on EVERY page automatically
-  function initMobileMenu() {
-    const menuButtons = document.querySelectorAll('button[aria-label="Buka Menu"], .mobile-nav-toggle');
+  // 2. Single Global Delegated Mobile Menu Click Handler (Rock-solid, no conflict)
+  document.addEventListener('click', function (e) {
+    const toggleBtn = e.target.closest('button[aria-label="Buka Menu"], #open-sidebar-btn, #close-sidebar-btn');
     const mobileNav = document.getElementById('mobile-nav');
-
-    if (mobileNav) {
-      menuButtons.forEach(btn => {
-        // Remove previous clone to avoid duplicate listeners
-        const newBtn = btn.cloneNode(true);
-        btn.parentNode.replaceChild(newBtn, btn);
-
-        newBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const isHidden = mobileNav.classList.contains('hidden');
-          if (isHidden) {
-            mobileNav.classList.remove('hidden');
-          } else {
-            mobileNav.classList.add('hidden');
-          }
-        });
-      });
-
-      // Close mobile menu if clicked outside
-      document.addEventListener('click', (e) => {
-        if (!mobileNav.contains(e.target) && !Array.from(menuButtons).some(b => b.contains(e.target))) {
-          mobileNav.classList.add('hidden');
-        }
-      });
-    }
-
-    // Admin Sidebar Mobile Trigger
-    const openSidebarBtn = document.getElementById('open-sidebar-btn');
-    const closeSidebarBtn = document.getElementById('close-sidebar-btn');
     const adminSidebar = document.getElementById('admin-sidebar');
     const sidebarBackdrop = document.getElementById('sidebar-backdrop');
 
-    if (openSidebarBtn && adminSidebar) {
-      openSidebarBtn.addEventListener('click', () => {
-        adminSidebar.classList.remove('-translate-x-full');
-        sidebarBackdrop?.classList.remove('hidden');
-      });
+    // Case A: Navbar hamburger menu button clicked
+    if (toggleBtn && toggleBtn.matches('button[aria-label="Buka Menu"]')) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (mobileNav) {
+        mobileNav.classList.toggle('hidden');
+      }
+      return;
     }
-    if (closeSidebarBtn && adminSidebar) {
-      closeSidebarBtn.addEventListener('click', () => {
-        adminSidebar.classList.add('-translate-x-full');
-        sidebarBackdrop?.classList.add('hidden');
-      });
-    }
-    if (sidebarBackdrop && adminSidebar) {
-      sidebarBackdrop.addEventListener('click', () => {
-        adminSidebar.classList.add('-translate-x-full');
-        sidebarBackdrop.classList.add('hidden');
-      });
-    }
-  }
 
-  // 3. Smooth page link interceptor (50ms tactile feedback)
+    // Case B: Admin sidebar open button clicked
+    if (toggleBtn && toggleBtn.id === 'open-sidebar-btn') {
+      e.preventDefault();
+      e.stopPropagation();
+      adminSidebar?.classList.remove('-translate-x-full');
+      sidebarBackdrop?.classList.remove('hidden');
+      return;
+    }
+
+    // Case C: Admin sidebar close button or backdrop clicked
+    if ((toggleBtn && toggleBtn.id === 'close-sidebar-btn') || e.target === sidebarBackdrop) {
+      e.preventDefault();
+      e.stopPropagation();
+      adminSidebar?.classList.add('-translate-x-full');
+      sidebarBackdrop?.classList.add('hidden');
+      return;
+    }
+
+    // Case D: Tap outside mobile nav closes the dropdown
+    if (mobileNav && !mobileNav.classList.contains('hidden') && !mobileNav.contains(e.target)) {
+      mobileNav.classList.add('hidden');
+    }
+  });
+
+  // 3. Smooth page navigation interceptor (50ms tactile feedback)
   document.addEventListener('click', function (e) {
     const link = e.target.closest('a');
     if (!link) return;
@@ -110,6 +95,7 @@
     const href = link.getAttribute('href');
     if (!href) return;
 
+    // Ignore anchors, external links, mailto, tel, target="_blank", or modifier keys
     if (
       href.startsWith('#') ||
       href.startsWith('mailto:') ||
@@ -139,7 +125,7 @@
         }, 50);
       }
     } catch (err) {
-      // Fallback normal navigation
+      // Fallback
     }
   });
 
@@ -147,11 +133,4 @@
   window.addEventListener('pageshow', function (e) {
     document.body.classList.remove('page-leaving');
   });
-
-  // Run on DOM ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMobileMenu);
-  } else {
-    initMobileMenu();
-  }
 })();

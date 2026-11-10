@@ -715,14 +715,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // Mobile navigation toggle
-    const menuBtn = document.querySelector('button[aria-label="Buka Menu"]');
-    const mobileNav = document.getElementById('mobile-nav');
-    if (menuBtn && mobileNav) {
-      menuBtn.addEventListener('click', () => {
-        mobileNav.classList.toggle('hidden');
-      });
-    }
+    // Mobile navigation handled globally in transition.js
 
     // Smooth scroll for in-page anchors
     const internalLinks = document.querySelectorAll('a[href^="#"]');
