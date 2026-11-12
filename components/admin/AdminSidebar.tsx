@@ -12,7 +12,8 @@ import {
   Images,
   Handshake,
   ExternalLink,
-  Factory
+  Factory,
+  LogOut
 } from "lucide-react";
 
 interface AdminSidebarProps {
@@ -125,7 +126,7 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
         </div>
 
         {/* Sidebar Footer */}
-        <div className="p-3.5 border-t border-[#e2e8dd] bg-[#f8faf5]">
+        <div className="p-3.5 border-t border-[#e2e8dd] bg-[#f8faf5] flex flex-col gap-2">
           <Link
             href="/"
             target="_blank"
@@ -137,6 +138,22 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
             </div>
             <ExternalLink className="w-3.5 h-3.5 text-gray-400" />
           </Link>
+
+          <button
+            type="button"
+            onClick={() => {
+              if (confirm("Apakah Anda yakin ingin keluar dari panel admin?")) {
+                window.location.href = "/";
+              }
+            }}
+            className="flex items-center justify-between w-full px-3 py-2 rounded-lg bg-red-50/70 hover:bg-red-100/80 text-red-700 text-xs font-semibold border border-red-200/60 transition-colors"
+          >
+            <div className="flex items-center gap-2">
+              <LogOut className="w-4 h-4 text-red-600" />
+              <span>Keluar (Logout)</span>
+            </div>
+            <span className="text-[10px] uppercase font-bold text-red-400 tracking-wider">Exit</span>
+          </button>
         </div>
       </aside>
     </>
