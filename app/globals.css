@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-50: #f2f8f3;
+  --color-forest-100: #e1efe4;
+  --color-forest-200: #c5e0cd;
+  --color-forest-300: #99c9a6;
+  --color-forest-400: #67ab7c;
+  --color-forest-500: #428f58;
+  --color-forest-600: #2f7344;
+  --color-forest-700: #265b37;
+  --color-forest-800: #21492e;
+  --color-forest-900: #1c3d27;
+  --color-forest-950: #0b2113;
+
+  --color-amber-warm: #f59e0b;
+  --color-amber-soft: #fef3c7;
+  --color-amber-bright: #fbbf24;
+  --color-amber-dark: #b45309;
+
+  --color-surface: #f6fbf1;
+  --color-surface-low: #f1f5eb;
+  --color-surface-lowest: #ffffff;
+  --color-surface-high: #e5eae0;
+  --color-surface-highest: #dfe4db;
+  --color-surface-container: #ebefe6;
+
+  --color-secondary: #2e6a41;
+  --color-secondary-container: #b1f2be;
+  --color-on-secondary-container: #347047;
+  --color-on-secondary-fixed: #00210d;
+
+  --color-primary: #725c00;
+  --color-primary-container: #f6c900;
+  --color-on-primary-container: #6a5500;
+  --color-primary-fixed: #ffe081;
+
+  --color-tertiary: #3e6a02;
+  --color-tertiary-container: #a9dd6f;
+  
+  --color-on-surface: #181d17;
+  --color-on-surface-variant: #4d4632;
+  --color-outline: #7f765f;
+  --color-outline-variant: #d1c6ab;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-plus-jakarta), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Material Symbols Outlined Fallback */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
