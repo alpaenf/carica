@@ -13,7 +13,7 @@ export default function AdminPage() {
     <div class="h-20 px-6 flex items-center justify-between border-b border-[#e2e8dd]">
       <a href="/" class="flex items-center gap-3 group" title="Buka Beranda Website">
         <div class="w-10 h-10 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-          <span class="material-symbols-outlined text-[24px]">eco</span>
+          <span class="material-symbols-outlined text-[24px] notranslate" translate="no">eco</span>
         </div>
         <div class="flex flex-col">
           <span class="font-bold text-[#2e6a41] text-[17px] leading-tight">Carica Gemilang</span>
@@ -21,7 +21,7 @@ export default function AdminPage() {
         </div>
       </a>
       <button id="close-sidebar-btn" type="button" class="lg:hidden p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Tutup Sidebar">
-        <span class="material-symbols-outlined text-[20px]">close</span>
+        <span class="material-symbols-outlined text-[20px] notranslate" translate="no">close</span>
       </button>
     </div>
 
@@ -32,32 +32,32 @@ export default function AdminPage() {
         <div class="px-3 text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Ringkasan &amp; Operasional</div>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#e8f5e9] text-[#2e6a41] font-bold text-[14px] shadow-xs transition-colors" href="/admin">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-[#2e6a41]">grid_view</span>
+            <span class="material-symbols-outlined text-[20px] text-[#2e6a41] notranslate" translate="no">grid_view</span>
             <span>Dashboard Utama</span>
           </div>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#pesanan">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">local_shipping</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">local_shipping</span>
             <span>Pesanan &amp; Distribusi</span>
           </div>
           <span class="px-2 py-0.5 rounded-full bg-[#f6c900] text-[#181d17] text-[11px] font-bold">14 Baru</span>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#grafik">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">bar_chart</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">bar_chart</span>
             <span>Tren &amp; Analitik</span>
           </div>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#stok-batch">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">inventory_2</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">inventory_2</span>
             <span>Stok &amp; Batch CPPOB</span>
           </div>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/cari-reseller">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">storefront</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">storefront</span>
             <span>Reseller &amp; Toko</span>
           </div>
           <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[11px] font-bold">34 Kota</span>
@@ -69,31 +69,31 @@ export default function AdminPage() {
         <div class="px-3 text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Konten Website (CMS)</div>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/produk">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">category</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">category</span>
             <span>Katalog Produk</span>
           </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400">open_in_new</span>
+          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/wisata-edukasi">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">tour</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">tour</span>
             <span>Wisata Edukasi</span>
           </div>
           <span class="px-2 py-0.5 rounded-full bg-red-100 text-red-700 text-[11px] font-bold">5 Pending</span>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/kemitraan">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">handshake</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">handshake</span>
             <span>Kemitraan Bisnis</span>
           </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400">open_in_new</span>
+          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
         </a>
         <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/galeri">
           <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500">perm_media</span>
+            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">perm_media</span>
             <span>Galeri &amp; Dokumentasi</span>
           </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400">open_in_new</span>
+          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
         </a>
       </div>
     </div>
@@ -109,10 +109,10 @@ export default function AdminPage() {
       </div>
       <a href="/" class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white hover:bg-[#f6c900] text-[#2e6a41] hover:text-[#181d17] font-bold text-[13px] border border-[#d1dec6] transition-all shadow-xs group">
         <div class="flex items-center gap-2">
-          <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+          <span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_back</span>
           <span>Ke Website Publik</span>
         </div>
-        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">open_in_new</span>
+        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform notranslate" translate="no">open_in_new</span>
       </a>
     </div>
   </aside>
@@ -125,10 +125,10 @@ export default function AdminPage() {
         <!-- Search Bar & Mobile Trigger -->
         <div class="flex items-center gap-3 flex-1 max-w-xl">
           <button id="open-sidebar-btn" type="button" class="lg:hidden p-2 rounded-xl text-gray-600 hover:bg-gray-100 transition-colors" aria-label="Buka Menu Sidebar">
-            <span class="material-symbols-outlined text-[24px]">menu</span>
+            <span class="material-symbols-outlined text-[24px] notranslate" translate="no">menu</span>
           </button>
           <div class="w-full flex items-center bg-[#f8faf5] rounded-xl px-4 py-2 border border-[#dbe3d6] focus-within:border-[#2e6a41] focus-within:ring-2 focus-within:ring-[#2e6a41]/20 transition-all">
-            <span class="material-symbols-outlined text-gray-400 mr-2.5 text-[20px]">search</span>
+            <span class="material-symbols-outlined text-gray-400 mr-2.5 text-[20px] notranslate" translate="no">search</span>
             <input id="admin-search-input" class="w-full bg-transparent border-0 text-[14px] text-gray-800 placeholder:text-gray-400 focus:outline-none" placeholder="Cari nomor pesanan (#ORD), nama mitra, kota..." type="text">
           </div>
         </div>
@@ -141,17 +141,17 @@ export default function AdminPage() {
           </div>
 
           <a href="/" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#f1f5eb] hover:bg-[#e4edd9] text-[#2e6a41] text-[13px] font-bold transition-all border border-[#d5e0cb]">
-            <span class="material-symbols-outlined text-[16px]">visibility</span>
+            <span class="material-symbols-outlined text-[16px] notranslate" translate="no">visibility</span>
             <span>Lihat Web</span>
           </a>
 
           <button id="header-batch-btn" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#f6c900] hover:bg-[#eec200] text-[#181d17] text-[13px] font-bold shadow-xs transition-all">
-            <span class="material-symbols-outlined text-[18px]">add_circle</span>
+            <span class="material-symbols-outlined text-[18px] notranslate" translate="no">add_circle</span>
             <span class="hidden sm:inline">+ Catat Batch</span>
           </button>
 
           <button class="relative p-2 rounded-xl text-gray-500 hover:bg-gray-100 transition-colors" type="button" title="Notifikasi">
-            <span class="material-symbols-outlined text-[22px]">notifications</span>
+            <span class="material-symbols-outlined text-[22px] notranslate" translate="no">notifications</span>
             <span class="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full ring-2 ring-white"></span>
           </button>
 
@@ -164,7 +164,7 @@ export default function AdminPage() {
               <span class="text-[11px] font-medium text-gray-400">Admin Operasional</span>
             </div>
             <div class="w-9 h-9 rounded-full bg-[#725c00] flex items-center justify-center text-white shadow-xs font-bold text-[14px]">
-              <span class="material-symbols-outlined text-[20px]">person</span>
+              <span class="material-symbols-outlined text-[20px] notranslate" translate="no">person</span>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function AdminPage() {
           <div class="space-y-3">
             <div class="flex flex-wrap items-center gap-2 text-[12px] text-gray-500 font-semibold">
               <span class="inline-flex items-center gap-1 text-[#2e6a41] bg-[#e8f5e9] px-2.5 py-0.5 rounded-full font-bold">
-                <span class="material-symbols-outlined text-[15px]">location_on</span>
+                <span class="material-symbols-outlined text-[15px] notranslate" translate="no">location_on</span>
                 Sentra Pengolahan Kejajar (2.093 mdpl)
               </span>
               <span>•</span>
@@ -205,21 +205,21 @@ export default function AdminPage() {
                 <span>Batch Aktif: LOT-20240514-A (Retort 121°C)</span>
               </span>
               <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#e8f5e9] text-[#2e6a41] font-bold border border-[#c8e6c9]">
-                <span class="material-symbols-outlined text-[14px]">verified</span> CPPOB Grade A
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">verified</span> CPPOB Grade A
               </span>
               <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-100 text-gray-600 font-medium">
-                <span class="material-symbols-outlined text-[14px]">thermostat</span> Cold Storage: 4.2°C
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">thermostat</span> Cold Storage: 4.2°C
               </span>
             </div>
           </div>
 
           <div class="flex flex-wrap items-center gap-3 w-full xl:w-auto">
             <button id="download-report-btn" class="flex-1 xl:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#f1f5eb] hover:bg-[#e2edd7] text-[#181d17] font-bold text-[13px] border border-[#d5e0cb] transition-colors shadow-xs">
-              <span class="material-symbols-outlined text-[18px]">file_download</span>
+              <span class="material-symbols-outlined text-[18px] notranslate" translate="no">file_download</span>
               <span>Unduh Rekap Bulanan</span>
             </button>
             <button id="new-batch-btn" class="flex-1 xl:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#f6c900] hover:bg-[#eec200] text-[#181d17] font-bold text-[13px] transition-all shadow-xs">
-              <span class="material-symbols-outlined text-[18px]">add_circle</span>
+              <span class="material-symbols-outlined text-[18px] notranslate" translate="no">add_circle</span>
               <span>+ Catat Batch Baru</span>
             </button>
           </div>
@@ -233,14 +233,14 @@ export default function AdminPage() {
           <div class="flex items-center justify-between">
             <span class="text-[12px] font-bold uppercase tracking-wider text-gray-400">Total Penjualan Mei</span>
             <div class="w-10 h-10 rounded-xl bg-[#e8f5e9] text-[#2e6a41] flex items-center justify-center">
-              <span class="material-symbols-outlined text-[22px]">payments</span>
+              <span class="material-symbols-outlined text-[22px] notranslate" translate="no">payments</span>
             </div>
           </div>
           <div class="mt-4">
             <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">Rp 24.850.000</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
-                <span class="material-symbols-outlined text-[14px]">arrow_upward</span> +14.2%
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">arrow_upward</span> +14.2%
               </span>
               <span class="text-[12px] text-gray-400">vs bulan lalu</span>
             </div>
@@ -256,14 +256,14 @@ export default function AdminPage() {
           <div class="flex items-center justify-between">
             <span class="text-[12px] font-bold uppercase tracking-wider text-gray-400">Volume Produksi</span>
             <div class="w-10 h-10 rounded-xl bg-[#f6c900]/20 text-[#725c00] flex items-center justify-center">
-              <span class="material-symbols-outlined text-[22px]">inventory_2</span>
+              <span class="material-symbols-outlined text-[22px] notranslate" translate="no">inventory_2</span>
             </div>
           </div>
           <div class="mt-4">
             <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">3.420 Karton</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
-                <span class="material-symbols-outlined text-[14px]">check_circle</span> 92% Kapasitas
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">check_circle</span> 92% Kapasitas
               </span>
               <span class="text-[12px] text-gray-400">18.250 Cup &amp; Jar</span>
             </div>
@@ -279,14 +279,14 @@ export default function AdminPage() {
           <div class="flex items-center justify-between">
             <span class="text-[12px] font-bold uppercase tracking-wider text-gray-400">Jaringan Reseller</span>
             <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center">
-              <span class="material-symbols-outlined text-[22px]">storefront</span>
+              <span class="material-symbols-outlined text-[22px] notranslate" translate="no">storefront</span>
             </div>
           </div>
           <div class="mt-4">
             <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">184 Mitra</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md">
-                <span class="material-symbols-outlined text-[14px]">add</span> +6 Bulan Ini
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">add</span> +6 Bulan Ini
               </span>
               <span class="text-[12px] text-gray-400">di 34 Kota</span>
             </div>
@@ -302,14 +302,14 @@ export default function AdminPage() {
           <div class="flex items-center justify-between">
             <span class="text-[12px] font-bold uppercase tracking-wider text-gray-400">Wisata Edukasi</span>
             <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center">
-              <span class="material-symbols-outlined text-[22px]">groups</span>
+              <span class="material-symbols-outlined text-[22px] notranslate" translate="no">groups</span>
             </div>
           </div>
           <div class="mt-4">
             <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">1.280 Wisatawan</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-purple-700 bg-purple-50 px-2 py-0.5 rounded-md">
-                <span class="material-symbols-outlined text-[14px]">event_available</span> 8 Rombongan
+                <span class="material-symbols-outlined text-[14px] notranslate" translate="no">event_available</span> 8 Rombongan
               </span>
               <span class="text-[12px] text-gray-400">minggu ini</span>
             </div>
@@ -353,7 +353,7 @@ export default function AdminPage() {
               </span>
             </div>
             <span class="px-3 py-1 rounded-md bg-[#e8f5e9] text-[#2e6a41] font-bold inline-flex items-center gap-1.5">
-              <span class="material-symbols-outlined text-[16px]">insights</span> Puncak Distribusi: Kamis &amp; Sabtu
+              <span class="material-symbols-outlined text-[16px] notranslate" translate="no">insights</span> Puncak Distribusi: Kamis &amp; Sabtu
             </span>
           </div>
 
@@ -495,7 +495,7 @@ export default function AdminPage() {
                 <td class="py-4 px-5 whitespace-nowrap">
                   <div class="font-bold text-[#181d17]">Pusat Oleh-Oleh Primadona</div>
                   <div class="text-[11px] text-gray-400 flex items-center gap-1">
-                    <span class="material-symbols-outlined text-[13px]">location_on</span> Jl. Malioboro, Yogyakarta
+                    <span class="material-symbols-outlined text-[13px] notranslate" translate="no">location_on</span> Jl. Malioboro, Yogyakarta
                   </div>
                 </td>
                 <td class="py-4 px-5 whitespace-nowrap">
@@ -525,7 +525,7 @@ export default function AdminPage() {
                 <td class="py-4 px-5 whitespace-nowrap">
                   <div class="font-bold text-[#181d17]">Toko Oleh-Oleh Bu Rudy</div>
                   <div class="text-[11px] text-gray-400 flex items-center gap-1">
-                    <span class="material-symbols-outlined text-[13px]">location_on</span> Surabaya, Jawa Timur
+                    <span class="material-symbols-outlined text-[13px] notranslate" translate="no">location_on</span> Surabaya, Jawa Timur
                   </div>
                 </td>
                 <td class="py-4 px-5 whitespace-nowrap">
@@ -555,7 +555,7 @@ export default function AdminPage() {
                 <td class="py-4 px-5 whitespace-nowrap">
                   <div class="font-bold text-[#181d17]">Koperasi Pegawai Bappeda Jateng</div>
                   <div class="text-[11px] text-gray-400 flex items-center gap-1">
-                    <span class="material-symbols-outlined text-[13px]">location_on</span> Semarang, Jawa Tengah
+                    <span class="material-symbols-outlined text-[13px] notranslate" translate="no">location_on</span> Semarang, Jawa Tengah
                   </div>
                 </td>
                 <td class="py-4 px-5 whitespace-nowrap">
@@ -585,7 +585,7 @@ export default function AdminPage() {
                 <td class="py-4 px-5 whitespace-nowrap">
                   <div class="font-bold text-[#181d17]">Gourmet Market Grand Indonesia</div>
                   <div class="text-[11px] text-gray-400 flex items-center gap-1">
-                    <span class="material-symbols-outlined text-[13px]">location_on</span> Jakarta Pusat, DKI Jakarta
+                    <span class="material-symbols-outlined text-[13px] notranslate" translate="no">location_on</span> Jakarta Pusat, DKI Jakarta
                   </div>
                 </td>
                 <td class="py-4 px-5 whitespace-nowrap">
@@ -616,7 +616,7 @@ export default function AdminPage() {
         <div class="bg-white rounded-2xl border border-[#e2e8dd] p-6 shadow-xs flex flex-col justify-between space-y-4">
           <div class="flex items-center justify-between border-b border-gray-100 pb-3">
             <div class="flex items-center gap-2">
-              <span class="material-symbols-outlined text-[#2e6a41]">inventory_2</span>
+              <span class="material-symbols-outlined text-[#2e6a41] notranslate" translate="no">inventory_2</span>
               <h3 class="text-[16px] font-bold text-[#181d17]">Stok &amp; Batch CPPOB</h3>
             </div>
             <span class="px-2 py-0.5 rounded-md bg-[#e8f5e9] text-[#2e6a41] text-[11px] font-bold">Kejajar Plant</span>
@@ -664,7 +664,7 @@ export default function AdminPage() {
         <div class="bg-white rounded-2xl border border-[#e2e8dd] p-6 shadow-xs flex flex-col justify-between space-y-4">
           <div class="flex items-center justify-between border-b border-gray-100 pb-3">
             <div class="flex items-center gap-2">
-              <span class="material-symbols-outlined text-[#725c00]">tour</span>
+              <span class="material-symbols-outlined text-[#725c00] notranslate" translate="no">tour</span>
               <h3 class="text-[16px] font-bold text-[#181d17]">Reservasi Edukasi</h3>
             </div>
             <span class="px-2 py-0.5 rounded-md bg-purple-50 text-purple-700 text-[11px] font-bold">5 Pending</span>
@@ -680,7 +680,7 @@ export default function AdminPage() {
                 <span class="px-2 py-0.5 rounded-md bg-gray-200 text-gray-700 text-[11px] font-bold whitespace-nowrap">80 Siswa</span>
               </div>
               <div class="flex items-center gap-1.5 text-[12px] text-gray-500">
-                <span class="material-symbols-outlined text-[15px] text-[#2e6a41]">calendar_today</span>
+                <span class="material-symbols-outlined text-[15px] text-[#2e6a41] notranslate" translate="no">calendar_today</span>
                 <span>22 Mei 2024 (09:00 WIB)</span>
               </div>
               <div class="flex items-center gap-2 pt-1">
@@ -698,12 +698,12 @@ export default function AdminPage() {
                 <span class="px-2 py-0.5 rounded-md bg-[#e8f5e9] text-[#2e6a41] text-[11px] font-bold whitespace-nowrap">45 Peserta</span>
               </div>
               <div class="flex items-center gap-1.5 text-[12px] text-gray-500">
-                <span class="material-symbols-outlined text-[15px] text-[#2e6a41]">calendar_today</span>
+                <span class="material-symbols-outlined text-[15px] text-[#2e6a41] notranslate" translate="no">calendar_today</span>
                 <span>28 Mei 2024 (13:30 WIB)</span>
               </div>
               <div class="flex items-center justify-between pt-1 text-[11px]">
                 <span class="text-[#2e6a41] font-bold flex items-center gap-1">
-                  <span class="material-symbols-outlined text-[14px]">check_circle</span> DP Terverifikasi
+                  <span class="material-symbols-outlined text-[14px] notranslate" translate="no">check_circle</span> DP Terverifikasi
                 </span>
                 <button class="px-2.5 py-1 rounded-md bg-[#f6c900] text-[#181d17] font-bold hover:bg-[#eec200] transition-colors" onclick="alert('Mencetak tiket...')">Cetak Tiket</button>
               </div>
@@ -711,7 +711,7 @@ export default function AdminPage() {
           </div>
 
           <a href="/wisata-edukasi" class="w-full py-2 rounded-xl bg-[#f1f5eb] text-[#2e6a41] font-bold text-[12px] hover:bg-[#e4edd9] transition-colors flex items-center justify-center gap-1.5">
-            <span class="material-symbols-outlined text-[16px]">calendar_month</span>
+            <span class="material-symbols-outlined text-[16px] notranslate" translate="no">calendar_month</span>
             <span>Buka Kalender Booking Lengkap</span>
           </a>
         </div>
@@ -720,7 +720,7 @@ export default function AdminPage() {
         <div class="bg-white rounded-2xl border border-[#e2e8dd] p-6 shadow-xs flex flex-col justify-between space-y-4">
           <div class="flex items-center justify-between border-b border-gray-100 pb-3">
             <div class="flex items-center gap-2">
-              <span class="material-symbols-outlined text-gray-500">history</span>
+              <span class="material-symbols-outlined text-gray-500 notranslate" translate="no">history</span>
               <h3 class="text-[16px] font-bold text-[#181d17]">Log Mutu &amp; Audit Terkini</h3>
             </div>
             <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>

@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col gap-4">
             <Link href="/" className="inline-flex items-center gap-2.5 py-1">
               <span className="w-9 h-9 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs shrink-0">
-                <span className="material-symbols-outlined text-[22px]">eco</span>
+                <span className="material-symbols-outlined text-[22px] notranslate" translate="no">eco</span>
               </span>
               <span className="flex flex-col text-left">
                 <span className="font-bold text-white text-[17px] tracking-tight leading-tight flex items-center gap-1">
@@ -56,15 +56,15 @@ export default function Footer() {
             <span className="text-sm font-bold text-[#ffe081] tracking-wide uppercase">Kontak & Alamat</span>
             <div className="flex flex-col gap-2.5 text-sm text-[#dfe4db]">
               <div className="flex items-start gap-2.5">
-                <span className="material-symbols-outlined text-[18px] text-[#ffe081] mt-0.5">location_on</span>
+                <span className="material-symbols-outlined text-[18px] text-[#ffe081] mt-0.5 notranslate" translate="no">location_on</span>
                 <span>Jl. Raya Dieng KM 14, Kejajar, Wonosobo, Jawa Tengah</span>
               </div>
               <div className="flex items-center gap-2.5">
-                <span className="material-symbols-outlined text-[18px] text-[#ffe081]">call</span>
+                <span className="material-symbols-outlined text-[18px] text-[#ffe081] notranslate" translate="no">call</span>
                 <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffe081] transition-colors">+62 812-3456-7890</a>
               </div>
               <div className="flex items-center gap-2.5">
-                <span className="material-symbols-outlined text-[18px] text-[#ffe081]">mail</span>
+                <span className="material-symbols-outlined text-[18px] text-[#ffe081] notranslate" translate="no">mail</span>
                 <a href="mailto:halo@caricagemilang.id" className="hover:text-[#ffe081] transition-colors">halo@caricagemilang.id</a>
               </div>
             </div>

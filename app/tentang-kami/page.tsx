@@ -12,11 +12,11 @@ export default function Page() {
 <!-- Top Tagline & Pill -->
 <div class="flex flex-wrap items-center gap-3 mb-6">
 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-widest font-extrabold shadow-sm">
-<span class="material-symbols-outlined text-[14px]">history_edu</span>
+<span class="material-symbols-outlined text-[14px] notranslate" translate="no">history_edu</span>
           CERITA &amp; DEDIKASI SEJAK 2012
         </span>
 <span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary font-bold tracking-wider">
-<span class="material-symbols-outlined text-[16px]">landscape</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">landscape</span>
           TERROIR DIENG 2.093 MDPL
         </span>
 </div>
@@ -34,7 +34,7 @@ export default function Page() {
 <div class="lg:col-span-4 bg-surface-container p-6 rounded-2xl shadow-sm flex flex-col gap-4 relative overflow-hidden">
 <div class="flex items-center justify-between pb-3 bg-surface-container-high/40 px-3 py-2 rounded-xl">
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Identitas Terroir Asli</span>
-<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+<span class="material-symbols-outlined text-primary text-[20px] notranslate" translate="no">verified</span>
 </div>
 <div class="grid grid-cols-2 gap-3 text-center">
 <div class="p-3 bg-surface-container-lowest rounded-xl shadow-xs">
@@ -50,7 +50,7 @@ export default function Page() {
 </div>
 <div class="p-3.5 bg-surface-container-lowest rounded-xl shadow-xs flex items-center justify-between">
 <div class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-tertiary text-[22px]">eco</span>
+<span class="material-symbols-outlined text-tertiary text-[22px] notranslate" translate="no">eco</span>
 <div>
 <span class="block font-label-md text-label-md font-bold text-on-surface">Bebas Pemanis Buatan</span>
 <span class="block font-body-sm text-body-sm text-on-surface-variant">0% Natrium Siklamat &amp; Aspartam</span>
@@ -113,7 +113,7 @@ export default function Page() {
 </div>
 <div class="p-6 bg-surface-container-lowest rounded-2xl shadow-sm border-l-4 border-secondary max-w-xl">
 <div class="flex items-center gap-2 text-secondary mb-1">
-<span class="material-symbols-outlined text-[20px]">flag</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">flag</span>
 <span class="font-label-md text-label-md font-bold uppercase tracking-wider">Visi Perusahaan</span>
 </div>
 <p class="font-headline-sm text-headline-sm font-semibold text-on-surface leading-snug">
@@ -127,7 +127,7 @@ export default function Page() {
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
 <div>
 <div class="w-12 h-12 rounded-xl bg-primary-container text-on-secondary-fixed flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined text-[24px]">verified_user</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">verified_user</span>
 </div>
 <span class="font-label-sm text-label-sm font-bold text-primary uppercase">Pilar 01</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1 mb-3">Mutu Tanpa Kompromi</h3>
@@ -137,14 +137,14 @@ export default function Page() {
 </div>
 <div class="mt-6 pt-4 border-t-0 flex items-center gap-2 text-secondary font-label-sm text-label-sm font-bold">
 <span>Standar Sterilisasi Uap</span>
-<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">check_circle</span>
 </div>
 </div>
 <!-- Pilar 2 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
 <div>
 <div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-fixed flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined text-[24px]">groups</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">groups</span>
 </div>
 <span class="font-label-sm text-label-sm font-bold text-secondary uppercase">Pilar 02</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1 mb-3">Kesejahteraan Petani</h3>
@@ -154,14 +154,14 @@ export default function Page() {
 </div>
 <div class="mt-6 pt-4 border-t-0 flex items-center gap-2 text-secondary font-label-sm text-label-sm font-bold">
 <span>Kontrak Panen Adil</span>
-<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">check_circle</span>
 </div>
 </div>
 <!-- Pilar 3 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
 <div>
 <div class="w-12 h-12 rounded-xl bg-tertiary-container text-on-tertiary-container flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined text-[24px]">nature_people</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">nature_people</span>
 </div>
 <span class="font-label-sm text-label-sm font-bold text-tertiary uppercase">Pilar 03</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1 mb-3">Edukasi &amp; Ekologi</h3>
@@ -171,14 +171,14 @@ export default function Page() {
 </div>
 <div class="mt-6 pt-4 border-t-0 flex items-center gap-2 text-tertiary font-label-sm text-label-sm font-bold">
 <span>Wisata Edukasi Interaktif</span>
-<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">check_circle</span>
 </div>
 </div>
 <!-- Pilar 4 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
 <div>
 <div class="w-12 h-12 rounded-xl bg-primary-fixed text-on-primary-fixed flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined text-[24px]">inventory_2</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">inventory_2</span>
 </div>
 <span class="font-label-sm text-label-sm font-bold text-primary uppercase">Pilar 04</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1 mb-3">Inovasi Suvenir</h3>
@@ -188,7 +188,7 @@ export default function Page() {
 </div>
 <div class="mt-6 pt-4 border-t-0 flex items-center gap-2 text-primary font-label-sm text-label-sm font-bold">
 <span>Segel Kedap Udara Retort</span>
-<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">check_circle</span>
 </div>
 </div>
 </div>
@@ -213,7 +213,7 @@ export default function Page() {
             Hanya memetik buah carica yang telah matang sempurna di pohon. Kami tidak mencampurkan perisa sintetis, menjaga kekentalan sirup murni dari biji carica asli.
           </p>
 <div class="mt-auto pt-4 flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant font-semibold">
-<span class="material-symbols-outlined text-[18px] text-tertiary">check</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary notranslate" translate="no">check</span>
             100% Sari Asli Biji Carica
           </div>
 </div>
@@ -227,7 +227,7 @@ export default function Page() {
             Setiap toples dan cup dilengkapi nomor lot panen, tanggal kedaluwarsa transparan, dan barcode validasi izin BPOM resmi yang dapat diverifikasi publik.
           </p>
 <div class="mt-auto pt-4 flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant font-semibold">
-<span class="material-symbols-outlined text-[18px] text-tertiary">check</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary notranslate" translate="no">check</span>
             Pelacakan Batch Panen
           </div>
 </div>
@@ -241,7 +241,7 @@ export default function Page() {
             Lebih dari 80% tenaga kerja proses pengupasan dan pengemasan adalah ibu-ibu dan pemuda Kejajar. Kami tumbuh bersama denyut nadi warga setempat.
           </p>
 <div class="mt-auto pt-4 flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant font-semibold">
-<span class="material-symbols-outlined text-[18px] text-tertiary">check</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary notranslate" translate="no">check</span>
             Pemberdayaan Wanita Desa
           </div>
 </div>
@@ -255,7 +255,7 @@ export default function Page() {
             Prinsip <em class="not-italic font-semibold">zero-waste</em> agribisnis: limbah kulit dan ampas biji carica difermentasi kembali menjadi pupuk kompos organik perkebunan lereng.
           </p>
 <div class="mt-auto pt-4 flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant font-semibold">
-<span class="material-symbols-outlined text-[18px] text-tertiary">check</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary notranslate" translate="no">check</span>
             Sirkular Kompos Organik
           </div>
 </div>
@@ -272,7 +272,7 @@ export default function Page() {
 <div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur-md p-4 rounded-xl shadow-md">
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-secondary-fixed">
-<span class="material-symbols-outlined text-[20px]">school</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">school</span>
 </div>
 <div>
 <h4 class="font-title-md text-title-md font-bold text-on-surface">Pabrik Buka untuk Edukasi Publik</h4>
@@ -292,21 +292,21 @@ export default function Page() {
 </div>
 <div class="space-y-4">
 <div class="p-4 bg-surface-container-lowest rounded-xl shadow-xs flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">sanitizer</span>
+<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5 notranslate" translate="no">sanitizer</span>
 <div>
 <h4 class="font-headline-sm text-headline-sm font-bold text-on-surface text-[17px]">Ruang Sortasi Ber-AC &amp; Pencucian Ozon</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Membersihkan residu getah alami carica secara menyeluruh dengan air terfiltrasi bertingkat.</p>
 </div>
 </div>
 <div class="p-4 bg-surface-container-lowest rounded-xl shadow-xs flex items-start gap-4">
-<span class="material-symbols-outlined text-primary text-[24px] mt-0.5">precision_manufacturing</span>
+<span class="material-symbols-outlined text-primary text-[24px] mt-0.5 notranslate" translate="no">precision_manufacturing</span>
 <div>
 <h4 class="font-headline-sm text-headline-sm font-bold text-on-surface text-[17px]">Sterilisasi Autoclave Retort Tekanan Tinggi</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Memastikan produk tahan hingga 12 bulan di suhu ruang tanpa membutuhkan zat pengawet kimia.</p>
 </div>
 </div>
 <div class="p-4 bg-surface-container-lowest rounded-xl shadow-xs flex items-start gap-4">
-<span class="material-symbols-outlined text-tertiary text-[24px] mt-0.5">biotech</span>
+<span class="material-symbols-outlined text-tertiary text-[24px] mt-0.5 notranslate" translate="no">biotech</span>
 <div>
 <h4 class="font-headline-sm text-headline-sm font-bold text-on-surface text-[17px]">Laboratorium Uji Brix &amp; Keasaman Alami</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Memastikan keseragaman tingkat kemanisan (Brix 14-16%) dan kesegaran rasa di setiap botol.</p>
@@ -316,11 +316,11 @@ export default function Page() {
 <!-- Official Badges Row -->
 <div class="pt-2 flex flex-wrap items-center gap-3">
 <div class="px-4 py-2 bg-surface-container rounded-lg flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="material-symbols-outlined text-secondary text-[18px] notranslate" translate="no">verified</span>
 <span class="font-label-sm text-label-sm font-bold text-on-surface">BPOM RI MD 217611001099</span>
 </div>
 <div class="px-4 py-2 bg-surface-container rounded-lg flex items-center gap-2">
-<span class="material-symbols-outlined text-tertiary text-[18px]">workspace_premium</span>
+<span class="material-symbols-outlined text-tertiary text-[18px] notranslate" translate="no">workspace_premium</span>
 <span class="font-label-sm text-label-sm font-bold text-on-surface">Halal MUI ID3311000045210922</span>
 </div>
 </div>
@@ -402,7 +402,7 @@ export default function Page() {
 <!-- Team 1 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col gap-4 text-center items-center">
 <div class="w-24 h-24 rounded-full bg-surface-container-high overflow-hidden shadow-xs flex items-center justify-center">
-<span class="material-symbols-outlined text-secondary text-[48px]">person</span>
+<span class="material-symbols-outlined text-secondary text-[48px] notranslate" translate="no">person</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">H. Slamet Rahardjo</h3>
@@ -415,7 +415,7 @@ export default function Page() {
 <!-- Team 2 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col gap-4 text-center items-center">
 <div class="w-24 h-24 rounded-full bg-surface-container-high overflow-hidden shadow-xs flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[48px]">face_3</span>
+<span class="material-symbols-outlined text-tertiary text-[48px] notranslate" translate="no">face_3</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Ibu Siti Wardani</h3>
@@ -428,7 +428,7 @@ export default function Page() {
 <!-- Team 3 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col gap-4 text-center items-center">
 <div class="w-24 h-24 rounded-full bg-surface-container-high overflow-hidden shadow-xs flex items-center justify-center">
-<span class="material-symbols-outlined text-secondary text-[48px]">engineering</span>
+<span class="material-symbols-outlined text-secondary text-[48px] notranslate" translate="no">engineering</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Bagus Wicaksono, S.T.</h3>
@@ -441,7 +441,7 @@ export default function Page() {
 <!-- Team 4 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col gap-4 text-center items-center">
 <div class="w-24 h-24 rounded-full bg-surface-container-high overflow-hidden shadow-xs flex items-center justify-center">
-<span class="material-symbols-outlined text-on-surface text-[48px]">support_agent</span>
+<span class="material-symbols-outlined text-on-surface text-[48px] notranslate" translate="no">support_agent</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Dewi Kartikasari, S.E.</h3>
@@ -460,7 +460,7 @@ export default function Page() {
 <div class="bg-surface-container p-8 lg:p-12 rounded-3xl shadow-sm flex flex-col lg:flex-row items-center gap-8 justify-between">
 <div class="flex-1 space-y-4">
 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-bold">
-<span class="material-symbols-outlined text-[16px]">park</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">park</span>
             PROGRAM CSR: SATU POHON BERKELANJUTAN
           </span>
 <h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold">Merawat Tanah Vulkanik, Mencegah Erosi Lereng</h2>
@@ -469,11 +469,11 @@ export default function Page() {
           </p>
 <div class="flex flex-wrap items-center gap-6 pt-2 font-label-md text-label-md text-on-surface font-bold">
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="material-symbols-outlined text-secondary notranslate" translate="no">check_circle</span>
 <span>12.000+ Bibit Ditanam</span>
 </div>
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="material-symbols-outlined text-secondary notranslate" translate="no">check_circle</span>
 <span>15 Titik Konservasi Lereng</span>
 </div>
 </div>
@@ -493,7 +493,7 @@ export default function Page() {
 <section class="w-full py-16 lg:py-20 bg-inverse-surface text-inverse-on-surface">
 <div class="max-w-[1320px] mx-auto px-6 lg:px-12 text-center flex flex-col items-center">
 <span class="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-surface-container-high/20 text-primary-fixed font-label-sm text-label-sm uppercase tracking-widest font-extrabold mb-6">
-<span class="material-symbols-outlined text-[16px]">pin_drop</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">pin_drop</span>
         KUNJUNGI KAMI DI KEJAJAR WONOSOBO
       </span>
 <h2 class="font-display-lg text-display-lg font-extrabold max-w-3xl leading-tight mb-6">
@@ -504,15 +504,15 @@ export default function Page() {
       </p>
 <div class="flex flex-wrap items-center justify-center gap-4">
 <a class="px-7 py-3.5 rounded-full bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-fixed-dim hover:-translate-y-0.5 transition-all flex items-center gap-2" data-path="wisata-edukasi" href="/wisata-edukasi">
-<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">calendar_month</span>
 <span>Jadwalkan Kunjungan Edukasi</span>
 </a>
 <a class="px-7 py-3.5 rounded-full bg-surface-container-high/15 hover:bg-surface-container-high/25 text-surface font-label-lg text-label-lg font-bold transition-all flex items-center gap-2" data-path="produk" href="/produk">
-<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">shopping_bag</span>
 <span>Jelajahi Produk Kami</span>
 </a>
 <a class="px-6 py-3.5 rounded-full bg-surface-container-high/15 hover:bg-secondary-container hover:text-on-secondary-fixed text-primary-fixed font-label-lg text-label-lg font-bold transition-all flex items-center gap-2" href="https://wa.me/6281234567890" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 <span>Hubungi Tim Manajemen</span>
 </a>
 </div>

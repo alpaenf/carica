@@ -13,7 +13,7 @@ export default function Page() {
 <div class="max-w-[1320px] mx-auto px-6 lg:px-12 relative z-10">
 <div class="max-w-3xl flex flex-col gap-5">
 <div class="inline-flex items-center gap-2 w-fit px-3.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">
-<span class="material-symbols-outlined text-[15px]">eco</span>
+<span class="material-symbols-outlined text-[15px] notranslate" translate="no">eco</span>
 <span>Authentic High-Altitude Harvest</span>
 </div>
 <h1 class="font-display-lg text-display-lg text-on-surface tracking-tight text-balance">
@@ -27,7 +27,7 @@ export default function Page() {
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-10">
 <div class="flex items-center gap-4 p-4 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
 <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0">
-<span class="material-symbols-outlined text-[26px]">nutrition</span>
+<span class="material-symbols-outlined text-[26px] notranslate" translate="no">nutrition</span>
 </div>
 <div>
 <h4 class="font-label-lg text-label-lg text-on-surface font-bold">100% Buah Segar Pilihan</h4>
@@ -36,7 +36,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-4 p-4 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
-<span class="material-symbols-outlined text-[26px]">verified</span>
+<span class="material-symbols-outlined text-[26px] notranslate" translate="no">verified</span>
 </div>
 <div>
 <h4 class="font-label-lg text-label-lg text-on-surface font-bold">BPOM RI &amp; Halal MUI</h4>
@@ -45,7 +45,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-4 p-4 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
 <div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-container shrink-0">
-<span class="material-symbols-outlined text-[26px]">package_2</span>
+<span class="material-symbols-outlined text-[26px] notranslate" translate="no">package_2</span>
 </div>
 <div>
 <h4 class="font-label-lg text-label-lg text-on-surface font-bold">Kemasan Ekspor &amp; Suvenir</h4>
@@ -61,7 +61,7 @@ export default function Page() {
 <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
 <!-- Search Input -->
 <div class="relative flex-1 max-w-lg">
-<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant notranslate" translate="no">search</span>
 <input class="w-full pl-12 pr-4 py-3 rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-on-surface-variant/70 focus:outline-none focus:ring-2 focus:ring-secondary transition-all shadow-sm" id="searchInput" placeholder="Cari nama produk, kemasan, atau ukuran..." type="text">
 </div>
 <!-- Sorting & Toggle Controls -->
@@ -73,7 +73,7 @@ export default function Page() {
 <option value="harga-tinggi">Harga: Tinggi ke Rendah</option>
 <option value="terbaru">Terbaru</option>
 </select>
-<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">expand_more</span>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px] notranslate" translate="no">expand_more</span>
 </div>
 <label class="flex items-center gap-2 px-4 py-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm select-none hover:bg-surface-container transition-colors">
 <input class="w-4 h-4 rounded text-secondary focus:ring-secondary accent-secondary" id="giftFilter" type="checkbox">
@@ -116,7 +116,7 @@ export default function Page() {
 <span>produk olahan carica pilihan</span>
 </div>
 <div class="hidden sm:flex items-center gap-2 font-body-sm text-body-sm text-tertiary">
-<span class="material-symbols-outlined text-[16px]">local_shipping</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">local_shipping</span>
 <span>Pengiriman aman dengan bubble wrap ganda &amp; kardus corrugated</span>
 </div>
 </div>
@@ -168,7 +168,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Carica%20Dieng%20Premium%20Jar%20Kaca%20350g" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -215,7 +215,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Gift%20Box%20Hampers%20Carica" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -262,7 +262,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Carica%20Cup%20Family%20Pack" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -309,7 +309,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Carica%20Cup%20Mini%20Bento" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -356,7 +356,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Sirup%20Konsentrat%20Carica%20500ml" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -403,7 +403,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20tanya%20Sirup%20Jerigen%201L%20untuk%20Cafe/Resto" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -450,7 +450,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20pesan%20Manisan%20Kering%20Carica%20200g" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -497,7 +497,7 @@ export default function Page() {
                 Lihat Detail
               </a>
 <a aria-label="Pesan via WhatsApp" class="p-2.5 rounded-xl bg-surface-container text-secondary hover:bg-secondary hover:text-on-secondary transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20tertarik%20konsultasi%20Jar%20Mini%20Souvenir%20Event" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -506,7 +506,7 @@ export default function Page() {
 <!-- Empty State -->
 <div class="hidden flex-col items-center justify-center py-20 text-center" id="emptyState">
 <div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant mb-4">
-<span class="material-symbols-outlined text-[32px]">inventory_2</span>
+<span class="material-symbols-outlined text-[32px] notranslate" translate="no">inventory_2</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Tidak ada produk ditemukan</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm mt-1">
@@ -528,7 +528,7 @@ export default function Page() {
 <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 <div class="lg:col-span-7 flex flex-col gap-6">
 <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary-container text-on-secondary-fixed font-label-sm text-label-sm font-bold w-fit uppercase tracking-wider">
-<span class="material-symbols-outlined text-[16px]">storefront</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">storefront</span>
 <span>Peluang Kemitraan Agribisnis Dieng</span>
 </div>
 <h2 class="font-display-lg text-display-lg font-bold leading-tight text-balance">
@@ -540,28 +540,28 @@ export default function Page() {
 <!-- Benefit Pillars -->
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
 <div class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5">percent</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5 notranslate" translate="no">percent</span>
 <div>
 <h4 class="font-label-lg text-label-lg font-bold text-on-secondary">Margin Hingga 35%</h4>
 <p class="font-body-sm text-body-sm text-on-secondary/80">Skema diskon berjenjang sesuai volume</p>
 </div>
 </div>
 <div class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5">verified_user</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5 notranslate" translate="no">verified_user</span>
 <div>
 <h4 class="font-label-lg text-label-lg font-bold text-on-secondary">Garansi Retur 100%</h4>
 <p class="font-body-sm text-body-sm text-on-secondary/80">Penggantian aman jika terjadi pecah saat kirim</p>
 </div>
 </div>
 <div class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5">campaign</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5 notranslate" translate="no">campaign</span>
 <div>
 <h4 class="font-label-lg text-label-lg font-bold text-on-secondary">Materi Promosi Gratis</h4>
 <p class="font-body-sm text-body-sm text-on-secondary/80">Banner, foto resolusi tinggi &amp; panduan jualan</p>
 </div>
 </div>
 <div class="flex items-start gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5">local_shipping</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] shrink-0 mt-0.5 notranslate" translate="no">local_shipping</span>
 <div>
 <h4 class="font-label-lg text-label-lg font-bold text-on-secondary">Ekspedisi Khusus Pangan</h4>
 <p class="font-body-sm text-body-sm text-on-secondary/80">Tarif kargo ekonomis ke seluruh pulau Jawa &amp; luar pulau</p>
@@ -571,11 +571,11 @@ export default function Page() {
 <!-- Action Buttons -->
 <div class="flex flex-wrap items-center gap-4 pt-4">
 <a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold hover:bg-primary-fixed-dim transition-all shadow-md" href="/kemitraan">
-<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">download</span>
 <span>Download Katalog Grosir (PDF)</span>
 </a>
 <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest/15 backdrop-blur-md text-on-secondary hover:bg-surface-container-lowest/25 font-label-lg text-label-lg font-bold transition-all" href="https://wa.me/6281234567890?text=Halo%20Tim%20Carica%20Gemilang,%20saya%20ingin%20konsultasi%20menjadi%20reseller/agen%20grosir" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 <span>Konsultasi Kemitraan WhatsApp</span>
 </a>
 </div>
@@ -585,7 +585,7 @@ export default function Page() {
 <div class="p-6 rounded-2xl bg-surface-container-lowest/10 backdrop-blur-md shadow-inner flex flex-col gap-4">
 <div class="flex items-center justify-between">
 <span class="font-label-md text-label-md text-primary-fixed uppercase tracking-wider font-bold">Traceability &amp; Batch Metrics</span>
-<span class="material-symbols-outlined text-primary-fixed">award_star</span>
+<span class="material-symbols-outlined text-primary-fixed notranslate" translate="no">award_star</span>
 </div>
 <!-- Mini SVG Sparkline / Progress Vis -->
 <div class="flex items-center justify-between pt-2">
@@ -635,7 +635,7 @@ export default function Page() {
 <span class="font-title-md text-title-md text-on-surface font-bold">
               Berapa lama daya tahan produk Carica Gemilang tanpa pengawet sintetis?
             </span>
-<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300">expand_more</span>
+<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300 notranslate" translate="no">expand_more</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
 <div class="pb-6 font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -649,7 +649,7 @@ export default function Page() {
 <span class="font-title-md text-title-md text-on-surface font-bold">
               Apakah produk dalam toples kaca aman dikirim ke luar pulau Jawa?
             </span>
-<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300">expand_more</span>
+<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300 notranslate" translate="no">expand_more</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
 <div class="pb-6 font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -663,7 +663,7 @@ export default function Page() {
 <span class="font-title-md text-title-md text-on-surface font-bold">
               Bagaimana syarat pembelian grosir atau bergabung menjadi kemitraan reseller?
             </span>
-<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300">expand_more</span>
+<span class="material-symbols-outlined faq-icon text-on-surface-variant transition-transform duration-300 notranslate" translate="no">expand_more</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
 <div class="pb-6 font-body-md text-body-md text-on-surface-variant leading-relaxed">

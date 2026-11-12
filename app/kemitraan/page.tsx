@@ -29,10 +29,10 @@ export default function Page() {
 <div class="flex flex-wrap items-center gap-4 pt-2">
 <a class="px-7 py-3.5 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-fixed-dim transition-all flex items-center gap-2" href="#form-pendaftaran">
 <span>Daftar Kemitraan Sekarang</span>
-<span class="material-symbols-outlined text-[20px]">arrow_downward</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">arrow_downward</span>
 </a>
 <a class="px-7 py-3.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg font-semibold shadow-sm hover:bg-surface-container transition-all flex items-center gap-2" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20unduh%20Proposal%20dan%20Pricelist%20Grosir" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">download</span>
 <span>Unduh Proposal &amp; Pricelist (PDF)</span>
 </a>
 </div>
@@ -61,7 +61,7 @@ export default function Page() {
 <!-- Floating Badge Top-Left -->
 <div class="absolute -top-4 -left-4 bg-surface-container-lowest p-3.5 rounded-xl shadow-lg flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined text-[24px]">verified</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">verified</span>
 </div>
 <div>
 <p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sertifikasi Resmi</p>
@@ -71,7 +71,7 @@ export default function Page() {
 <!-- Floating Badge Bottom-Right -->
 <div class="absolute -bottom-6 right-2 sm:right-6 bg-secondary text-on-secondary p-4 rounded-xl shadow-xl flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center text-on-secondary-fixed">
-<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">local_shipping</span>
 </div>
 <div>
 <p class="font-label-md text-label-md text-secondary-fixed">Kargo Pangan Khusus</p>
@@ -101,7 +101,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-secondary-fixed mb-5">
-<span class="material-symbols-outlined text-[28px]">payments</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">payments</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Margin Usaha Tinggi</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -114,7 +114,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-fixed mb-5">
-<span class="material-symbols-outlined text-[28px]">verified_user</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">verified_user</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Legalitas &amp; Mutu Terjamin</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -127,7 +127,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-5">
-<span class="material-symbols-outlined text-[28px]">share_location</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">share_location</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Proteksi Wilayah Eksklusif</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -140,7 +140,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-error mb-5">
-<span class="material-symbols-outlined text-[28px]">sync_problem</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">sync_problem</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Garansi 100% Produk Pecah</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -153,7 +153,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-secondary-fixed mb-5">
-<span class="material-symbols-outlined text-[28px]">photo_camera_back</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">photo_camera_back</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Toolkit Marketing Gratis</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -166,7 +166,7 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
 <div>
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-fixed mb-5">
-<span class="material-symbols-outlined text-[28px]">rv_hookup</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">rv_hookup</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Ekspedisi Terjangkau &amp; Aman</h3>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -201,7 +201,7 @@ export default function Page() {
 <span class="font-label-md text-label-md text-secondary font-semibold uppercase tracking-wider">Tier 1</span>
 <h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-1">Reseller Pemula</h3>
 </div>
-<span class="material-symbols-outlined text-[28px] text-on-surface-variant">storefront</span>
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant notranslate" translate="no">storefront</span>
 </div>
 <p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
               Cocok untuk perintis toko oleh-oleh, warung modern, reseller online, atau penggiat bazar kuliner lokal.
@@ -210,25 +210,25 @@ export default function Page() {
 <span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Modal Awal Mulai</span>
 <p class="font-headline-lg text-headline-lg text-on-surface font-extrabold mt-0.5">Rp 1.500.000</p>
 <div class="flex items-center gap-2 mt-2 font-label-sm text-label-sm text-secondary font-bold">
-<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">trending_up</span>
 <span>Margin Estimasi: 18% - 22%</span>
 </div>
 </div>
 <ul class="flex flex-col gap-3 font-body-sm text-body-sm text-on-surface-variant mb-8">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Minimum Order: <strong>3 Karton</strong> (Bisa campur kemasan cup &amp; jar)</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Bahan konten promosi WhatsApp &amp; Instagram Stories mingguan</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Panduan edukasi manfaat &amp; story brand Carica Dieng</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Kemasan karton bergelombang ekstra tebal &amp; bubble wrap</span>
 </li>
 </ul>
@@ -248,7 +248,7 @@ export default function Page() {
 <span class="font-label-md text-label-md text-primary-fixed font-semibold uppercase tracking-wider">Tier 2</span>
 <h3 class="font-headline-md text-headline-md text-white font-bold mt-1">Agen Kota / Wilayah</h3>
 </div>
-<span class="material-symbols-outlined text-[28px] text-primary-fixed">domain</span>
+<span class="material-symbols-outlined text-[28px] text-primary-fixed notranslate" translate="no">domain</span>
 </div>
 <p class="font-body-sm text-body-sm text-secondary-fixed-dim mb-6">
               Diperuntukkan bagi distributor kota, pusat oleh-oleh kabupaten, dan jaringan pasokan retail yang ingin memegang wilayah.
@@ -257,29 +257,29 @@ export default function Page() {
 <span class="font-label-sm text-label-sm text-primary-fixed uppercase">Modal Awal Mulai</span>
 <p class="font-headline-lg text-headline-lg text-white font-extrabold mt-0.5">Rp 7.500.000</p>
 <div class="flex items-center gap-2 mt-2 font-label-sm text-label-sm text-primary-fixed font-bold">
-<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">trending_up</span>
 <span>Margin Estimasi: 25% - 30%</span>
 </div>
 </div>
 <ul class="flex flex-col gap-3 font-body-sm text-body-sm text-surface-container-highest mb-8">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5">verified</span>
+<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5 notranslate" translate="no">verified</span>
 <span>Minimum Order: <strong>15 Karton</strong> per alokasi</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5">verified</span>
+<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5 notranslate" translate="no">verified</span>
 <span><strong>Proteksi Wilayah Eksklusif</strong> di radius kecamatan/kota</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5">verified</span>
+<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5 notranslate" translate="no">verified</span>
 <span>Gratis 1 Standing Banner Akrilik Display &amp; 1 Box Tester Suvenir</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5">verified</span>
+<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5 notranslate" translate="no">verified</span>
 <span>Prioritas stok saat puncak panen raya &amp; libur panjang</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5">verified</span>
+<span class="material-symbols-outlined text-[18px] text-primary-fixed mt-0.5 notranslate" translate="no">verified</span>
 <span>Akses grup mentoring distributor langsung dari tim operasional</span>
 </li>
 </ul>
@@ -296,7 +296,7 @@ export default function Page() {
 <span class="font-label-md text-label-md text-tertiary font-semibold uppercase tracking-wider">Tier 3</span>
 <h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-1">Mitra B2B &amp; Horeka</h3>
 </div>
-<span class="material-symbols-outlined text-[28px] text-on-surface-variant">corporate_fare</span>
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant notranslate" translate="no">corporate_fare</span>
 </div>
 <p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
               Kebutuhan khusus hotel bintang, katering, restoran, dan paket hampers bingkisan korporat akhir tahun.
@@ -305,25 +305,25 @@ export default function Page() {
 <span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Investasi Sesuai Kontrak</span>
 <p class="font-headline-lg text-headline-lg text-on-surface font-extrabold mt-0.5">Custom PO</p>
 <div class="flex items-center gap-2 mt-2 font-label-sm text-label-sm text-secondary font-bold">
-<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">handshake</span>
 <span>Margin Kontrak: 30% - 35%</span>
 </div>
 </div>
 <ul class="flex flex-col gap-3 font-body-sm text-body-sm text-on-surface-variant mb-8">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Minimum Order: <strong>50+ Karton</strong> atau kemasan drum/jerigen</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Kustomisasi label / sleeve hangtag logo perusahaan</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Termin pembayaran terverifikasi (TOP untuk korporasi resmi)</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Penerbitan faktur pajak resmi &amp; Certificate of Analysis (CoA)</span>
 </li>
 </ul>
@@ -403,7 +403,7 @@ export default function Page() {
 <div>
 <div class="flex items-center justify-between pb-6 border-b border-surface-container-highest/20">
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-[24px] text-primary-fixed">analytics</span>
+<span class="material-symbols-outlined text-[24px] text-primary-fixed notranslate" translate="no">analytics</span>
 <span class="font-label-lg text-label-lg text-primary-fixed uppercase tracking-wider font-bold">Hasil Proyeksi Usaha</span>
 </div>
 <span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-on-secondary-fixed/50 text-surface-container-highest">Periode 30 Hari</span>
@@ -517,14 +517,14 @@ export default function Page() {
           </p>
 <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-4 mt-2">
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-[24px] text-secondary">support_agent</span>
+<span class="material-symbols-outlined text-[24px] text-secondary notranslate" translate="no">support_agent</span>
 <p class="font-headline-sm text-headline-sm text-on-surface font-bold">Layanan Cepat Tanggap</p>
 </div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">
               Tim Kemitraan Carica Gemilang akan menghubungi Anda via WhatsApp dalam waktu maksimal <strong>1x24 jam kerja</strong> setelah formulir diserahkan.
             </p>
 <div class="flex items-center gap-2 pt-2 text-secondary font-label-md text-label-md font-bold">
-<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">verified</span>
 <span>Kerahasiaan Data Usaha Dijamin Penuh</span>
 </div>
 </div>
@@ -535,7 +535,7 @@ export default function Page() {
 <p class="font-headline-sm text-headline-sm text-on-surface font-bold">+62 812-3456-7890</p>
 </div>
 <a class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center hover:bg-secondary/90 transition-colors" href="https://wa.me/6281234567890" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 </a>
 </div>
 </div>
@@ -641,12 +641,12 @@ export default function Page() {
 </div>
 <!-- Submit Button -->
 <button class="w-full py-4 rounded-xl bg-primary-container text-on-secondary-fixed font-headline-sm text-headline-sm font-bold shadow-md hover:bg-primary-fixed-dim transition-all flex items-center justify-center gap-2 mt-2" id="submit-btn" type="submit">
-<span class="material-symbols-outlined text-[22px]">send</span>
+<span class="material-symbols-outlined text-[22px] notranslate" translate="no">send</span>
 <span>Kirim Pengajuan Kemitraan</span>
 </button>
 <!-- Success Alert Area -->
 <div class="hidden p-4 rounded-xl bg-secondary-container text-on-secondary-fixed font-body-md text-body-md flex items-center gap-3" id="form-success-alert">
-<span class="material-symbols-outlined text-secondary text-[24px]">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[24px] notranslate" translate="no">check_circle</span>
 <div>
 <p class="font-bold">Terima kasih! Formulir Anda telah terkirim.</p>
 <p class="text-sm">Tim representatif kami akan menyapa via WhatsApp dalam 1x24 jam kerja.</p>
@@ -676,11 +676,11 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
 <div>
 <div class="flex items-center gap-1 text-primary mb-4">
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
 </div>
 <p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-6">
               "Kualitas rasa Carica Gemilang sangat konsisten manis-segarnya, tidak ada aftertaste asam menyengat. Di Surabaya, varian jar kaca mereka jadi best seller untuk bingkisan keluarga dan oleh-oleh premium."
@@ -700,11 +700,11 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
 <div>
 <div class="flex items-center gap-1 text-primary mb-4">
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
 </div>
 <p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-6">
               "Awalnya saya ragu kirim kaca dari Wonosobo ke Jakarta Barat. Ternyata packing kardusnya solid banget dan ada garansi retur tanpa ribet. Repeat order pelanggan di marketplace saya sangat tinggi."
@@ -724,11 +724,11 @@ export default function Page() {
 <div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
 <div>
 <div class="flex items-center gap-1 text-primary mb-4">
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
 </div>
 <p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-6">
               "Kami menyajikan manisan carica dingin untuk menu welcome drink di hotel butik kami di Yogyakarta. Tamu luar kota dan mancanegara sangat terkesan dengan kesegaran asli buah dataran tinggi Dieng."
@@ -749,7 +749,7 @@ export default function Page() {
 <div class="mt-12 p-8 rounded-2xl bg-surface-container-low flex flex-col md:flex-row items-center justify-between gap-6">
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-xl bg-secondary text-white flex items-center justify-center flex-shrink-0">
-<span class="material-symbols-outlined text-[28px]">hub</span>
+<span class="material-symbols-outlined text-[28px] notranslate" translate="no">hub</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Jaringan Distribusi 34 Kota</h3>
@@ -781,7 +781,7 @@ export default function Page() {
 <details class="group p-6 rounded-2xl bg-surface-container-lowest shadow-sm open:shadow-md transition-all">
 <summary class="flex justify-between items-center font-headline-sm text-headline-sm text-on-surface font-bold cursor-pointer list-none">
 <span>Apakah pemula yang belum punya toko fisik bisa bergabung?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <div class="mt-4 pt-4 border-t border-surface-container-high/40 font-body-md text-body-md text-on-surface-variant leading-relaxed">
             Sangat bisa! Paket Reseller Starter (Tier 1) dirancang khusus bagi individu yang ingin berjualan secara online via WhatsApp story, Instagram, marketplace, maupun sistem pre-order di lingkungan kantor atau perumahan tanpa keharusan memiliki toko fisik.
@@ -791,7 +791,7 @@ export default function Page() {
 <details class="group p-6 rounded-2xl bg-surface-container-lowest shadow-sm open:shadow-md transition-all">
 <summary class="flex justify-between items-center font-headline-sm text-headline-sm text-on-surface font-bold cursor-pointer list-none">
 <span>Bagaimana jika produk pecah dalam pengiriman kargo antarpulau?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <div class="mt-4 pt-4 border-t border-surface-container-high/40 font-body-md text-body-md text-on-surface-variant leading-relaxed">
             Kami memberikan <strong>Garansi Retur 100%</strong>. Setiap kardus dikemas dengan partisi khusus per botol dan bubble wrap tebal. Jika ada botol yang pecah selama perjalanan, cukup rekam video unboxing saat paket tiba dan kirimkan ke tim CS. Penggantian akan dikirimkan di pesanan berikutnya atau dikompensasi tanpa biaya.
@@ -801,7 +801,7 @@ export default function Page() {
 <details class="group p-6 rounded-2xl bg-surface-container-lowest shadow-sm open:shadow-md transition-all">
 <summary class="flex justify-between items-center font-headline-sm text-headline-sm text-on-surface font-bold cursor-pointer list-none">
 <span>Apakah harga jual konsumen ditentukan oleh Carica Gemilang (HET)?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <div class="mt-4 pt-4 border-t border-surface-container-high/40 font-body-md text-body-md text-on-surface-variant leading-relaxed">
             Kami menetapkan Harga Eceran Tertinggi (HET) rekomendasi untuk menjaga stabilitas pasar dan margin sehat seluruh mitra. Namun, mitra diperbolehkan menyesuaikan harga di wilayah luar pulau Jawa dengan mempertimbangkan komponen biaya ongkos kirim lokal.
@@ -811,7 +811,7 @@ export default function Page() {
 <details class="group p-6 rounded-2xl bg-surface-container-lowest shadow-sm open:shadow-md transition-all">
 <summary class="flex justify-between items-center font-headline-sm text-headline-sm text-on-surface font-bold cursor-pointer list-none">
 <span>Berapa lama estimasi pengiriman dari pabrik Kejajar Wonosobo ke kota mitra?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <div class="mt-4 pt-4 border-t border-surface-container-high/40 font-body-md text-body-md text-on-surface-variant leading-relaxed">
             Untuk wilayah Pulau Jawa (Jabodetabek, Bandung, Semarang, Surabaya), estimasi waktu kargo berkisar antara 1 - 2 hari kerja. Untuk wilayah Bali dan Sumatera sekitar 3 - 5 hari kerja, sedangkan Kalimantan &amp; Sulawesi rata-rata 5 - 8 hari kerja tergantung ekspedisi pilihan.
@@ -839,15 +839,15 @@ export default function Page() {
 </div>
 <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
 <a class="px-6 py-4 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-fixed-dim transition-all text-center flex items-center justify-center gap-2" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20konsultasi%20paket%20kemitraan" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 <span>Chat WhatsApp Tim Kemitraan</span>
 </a>
 <a class="px-6 py-3.5 rounded-xl bg-on-secondary-fixed/50 text-white font-label-lg text-label-lg font-semibold hover:bg-on-secondary-fixed/80 transition-all text-center flex items-center justify-center gap-2" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20mohon%20kirimkan%20Brosur%20Peluang%20Bisnis%20PDF" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">download</span>
 <span>Unduh Brosur Bisnis (PDF)</span>
 </a>
 <a class="px-6 py-3.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg font-bold shadow-sm hover:bg-surface-container hover:text-on-surface transition-all text-center flex items-center justify-center gap-2" href="/cari-reseller">
-<span class="material-symbols-outlined text-[20px]">storefront</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">storefront</span>
 <span>Cari Reseller Terdekat</span>
 </a>
 </div>

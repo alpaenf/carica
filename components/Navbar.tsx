@@ -24,7 +24,7 @@ function NavContent() {
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 flex-shrink-0 group">
           <div className="w-10 h-10 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-            <span className="material-symbols-outlined text-[24px]">eco</span>
+            <span className="material-symbols-outlined text-[24px] notranslate" translate="no">eco</span>
           </div>
           <div className="flex flex-col text-left">
             <span className="font-extrabold text-[#181d17] text-[18px] tracking-tight leading-tight flex items-center gap-1">

@@ -13,7 +13,7 @@ export default function Page() {
 <!-- Text Column -->
 <div class="lg:col-span-6 flex flex-col gap-6">
 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary-fixed/40 text-on-surface w-fit">
-<span class="material-symbols-outlined text-primary text-[18px]">nature_people</span>
+<span class="material-symbols-outlined text-primary text-[18px] notranslate" translate="no">nature_people</span>
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Program Agrowisata &amp; Edukasi Industri Kreatif Dieng</span>
 </div>
 <h1 class="font-display-xl text-display-xl text-on-surface font-extrabold tracking-tight">
@@ -25,21 +25,21 @@ export default function Page() {
 <!-- Badges Grid -->
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
 <div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
-<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">groups</span>
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5 notranslate" translate="no">groups</span>
 <div>
 <p class="font-label-lg text-label-lg font-bold text-on-surface">50.000+</p>
 <p class="font-label-sm text-label-sm text-on-surface-variant">Pelajar &amp; Tamu Berkunjung</p>
 </div>
 </div>
 <div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
-<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">event_seat</span>
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5 notranslate" translate="no">event_seat</span>
 <div>
 <p class="font-label-lg text-label-lg font-bold text-on-surface">Maks 60 Pax</p>
 <p class="font-label-sm text-label-sm text-on-surface-variant">Kapasitas Sesi Eksklusif</p>
 </div>
 </div>
 <div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
-<span class="material-symbols-outlined text-tertiary text-[22px] mt-0.5">workspace_premium</span>
+<span class="material-symbols-outlined text-tertiary text-[22px] mt-0.5 notranslate" translate="no">workspace_premium</span>
 <div>
 <p class="font-label-lg text-label-lg font-bold text-on-surface">Sertifikat Resmi</p>
 <p class="font-label-sm text-label-sm text-on-surface-variant">&amp; Welcome Drink Segar</p>
@@ -48,12 +48,12 @@ export default function Page() {
 </div>
 <div class="flex flex-wrap items-center gap-4 pt-4">
 <a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg shadow-sm hover:bg-primary-fixed-dim transition-all" href="#reservasi-kalender">
-<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">calendar_month</span>
 <span>Cek Jadwal &amp; Reservasi</span>
 </a>
 <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-high text-secondary font-label-lg text-label-lg hover:bg-surface-variant transition-colors" href="#paket-edukasi">
 <span>Lihat Paket Kunjungan</span>
-<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_downward</span>
 </a>
 </div>
 </div>
@@ -65,7 +65,7 @@ export default function Page() {
 <div class="absolute bottom-5 left-5 right-5 flex items-center justify-between text-on-primary">
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-full bg-primary-container text-on-secondary-fixed flex items-center justify-center font-bold">
-<span class="material-symbols-outlined text-[20px]">verified</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">verified</span>
 </div>
 <div>
 <h4 class="font-title-md text-title-md font-bold">Tur Sanitasi Standar BPOM</h4>
@@ -80,7 +80,7 @@ export default function Page() {
 <!-- Terroir Elevation Stamp Card -->
 <div class="absolute -top-6 -right-4 sm:right-6 bg-surface-container-lowest rounded-xl p-4 shadow-lg max-w-[220px] hidden sm:flex flex-col gap-1.5">
 <div class="flex items-center gap-2 text-tertiary">
-<span class="material-symbols-outlined text-[20px]">mountain_flag</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">mountain_flag</span>
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider">Terroir Vulkanik</span>
 </div>
 <p class="font-title-md text-title-md font-extrabold text-on-surface">2.093 MDPL</p>
@@ -102,7 +102,7 @@ export default function Page() {
           </p>
 </div>
 <div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md bg-surface-container px-4 py-2 rounded-xl">
-<span class="material-symbols-outlined text-primary text-[20px]">info</span>
+<span class="material-symbols-outlined text-primary text-[20px] notranslate" translate="no">info</span>
 <span>Minimal rombongan 20 peserta</span>
 </div>
 </div>
@@ -112,7 +112,7 @@ export default function Page() {
 <div class="flex flex-col gap-6">
 <div class="flex items-center justify-between">
 <span class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold">Tingkat PAUD / TK / SD</span>
-<span class="material-symbols-outlined text-tertiary text-[26px]">child_care</span>
+<span class="material-symbols-outlined text-tertiary text-[26px] notranslate" translate="no">child_care</span>
 </div>
 <div>
 <h3 class="font-headline-md text-headline-md text-on-surface font-bold">Paket Tunas Carica</h3>
@@ -126,19 +126,19 @@ export default function Page() {
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Fasilitas Termasuk:</span>
 <ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Dongeng visual legenda buah carica &amp; pegunungan</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Tur interaktif pemilihan buah matang di bak sortir</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Icip sirup carica murni dingin bersama tutor</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Stiker edukasi satwa/tanaman &amp; sertifikat cilik</span>
 </li>
 </ul>
@@ -162,7 +162,7 @@ export default function Page() {
 <div class="flex flex-col gap-6">
 <div class="flex items-center justify-between pt-1">
 <span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">SMP / SMA / Mahasiswa</span>
-<span class="material-symbols-outlined text-secondary text-[26px]">school</span>
+<span class="material-symbols-outlined text-secondary text-[26px] notranslate" translate="no">school</span>
 </div>
 <div>
 <h3 class="font-headline-md text-headline-md text-on-surface font-bold">Paket Agrowisata Karya</h3>
@@ -176,23 +176,23 @@ export default function Page() {
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Fasilitas Lengkap:</span>
 <ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Tur sanitasi koridor kaca proses sterilisasi CPPOB</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Demo pengupasan teknis &amp; perebusan gula tebu murni</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Gratis 1 cup Carica Gemilang 120g bawa pulang</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Modul cetak rantai pasok agribisnis Wonosobo</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Sertifikat kunjungan bertanda tangan kepala pabrik</span>
 </li>
 </ul>
@@ -213,7 +213,7 @@ export default function Page() {
 <div class="flex flex-col gap-6">
 <div class="flex items-center justify-between">
 <span class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold">Instansi / Komunitas / UMKM</span>
-<span class="material-symbols-outlined text-primary text-[26px]">domain</span>
+<span class="material-symbols-outlined text-primary text-[26px] notranslate" translate="no">domain</span>
 </div>
 <div>
 <h3 class="font-headline-md text-headline-md text-on-surface font-bold">Studi Banding &amp; Korporat</h3>
@@ -227,23 +227,23 @@ export default function Page() {
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Fasilitas Eksekutif:</span>
 <ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant">
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Sesi dialog 45 menit bersama manajemen &amp; QA Pangan</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Bedah materi kepatuhan regulasi pangan olahan lokal</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Coffee break teh carica &amp; kudapan tradisional Dieng</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Suvenir exclusive glass jar carica premium 350g</span>
 </li>
 <li class="flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5 notranslate" translate="no">check_circle</span>
 <span>Plakat / Sertifikat resmi kemitraan instansi</span>
 </li>
 </ul>
@@ -268,7 +268,7 @@ export default function Page() {
 <!-- Section Title -->
 <div class="flex flex-col gap-3 text-center max-w-3xl mx-auto">
 <div class="inline-flex items-center justify-center gap-2 text-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
-<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">verified_user</span>
 <span>Sistem Pemesanan Kuota Terverifikasi</span>
 </div>
 <h2 class="font-display-lg text-display-lg text-on-surface font-bold tracking-tight">Kalender Ketersediaan &amp; Reservasi Kunjungan</h2>
@@ -283,15 +283,15 @@ export default function Page() {
 <!-- Calendar Header Controls -->
 <div class="flex items-center justify-between pb-4">
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary text-[24px]">calendar_today</span>
+<span class="material-symbols-outlined text-secondary text-[24px] notranslate" translate="no">calendar_today</span>
 <span class="font-headline-sm text-headline-sm font-bold text-on-surface">Desember 2026</span>
 </div>
 <div class="flex items-center gap-1.5">
 <button aria-label="Bulan Sebelumnya" class="p-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors">
-<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">chevron_left</span>
 </button>
 <button aria-label="Bulan Selanjutnya" class="p-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors">
-<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">chevron_right</span>
 </button>
 </div>
 </div>
@@ -464,7 +464,7 @@ export default function Page() {
 <div class="mt-2 p-5 rounded-xl bg-surface-container-low flex flex-col gap-4">
 <div class="flex items-center justify-between">
 <div class="flex items-center gap-2 text-secondary">
-<span class="material-symbols-outlined text-[20px]">event_available</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">event_available</span>
 <span class="font-label-lg text-label-lg font-bold">Jadwal Terpilih: Selasa, 15 Desember 2026</span>
 </div>
 <span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Dibuka</span>
@@ -477,7 +477,7 @@ export default function Page() {
 <span class="px-2 py-0.5 rounded-md bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-bold">Available</span>
 </div>
 <div class="flex items-center gap-1.5 text-on-surface-variant font-label-sm text-label-sm">
-<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">schedule</span>
 <span>09.00 - 11.30 WIB</span>
 </div>
 <p class="font-label-sm text-label-sm text-secondary font-bold">Tersisa 32 Kuota Peserta</p>
@@ -489,7 +489,7 @@ export default function Page() {
 <span class="px-2 py-0.5 rounded-md bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-bold">Limited</span>
 </div>
 <div class="flex items-center gap-1.5 text-on-surface-variant font-label-sm text-label-sm">
-<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">schedule</span>
 <span>13.30 - 16.00 WIB</span>
 </div>
 <p class="font-label-sm text-label-sm text-primary font-bold">Tersisa 8 Kuota Peserta</p>
@@ -555,7 +555,7 @@ export default function Page() {
 <label class="font-label-md text-label-md font-bold text-on-surface">Tanggal Terpilih</label>
 <div class="px-3.5 py-2.5 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-between">
 <span>15 Desember 2026</span>
-<span class="material-symbols-outlined text-[18px] text-secondary">check</span>
+<span class="material-symbols-outlined text-[18px] text-secondary notranslate" translate="no">check</span>
 </div>
 </div>
 <div class="flex flex-col gap-1.5">
@@ -600,7 +600,7 @@ export default function Page() {
 </label>
 <!-- Submit Button -->
 <button class="w-full mt-2 py-4 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-fixed-dim transition-all flex items-center justify-center gap-2" type="submit">
-<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">send</span>
 <span>Kirim Pengajuan Reservasi Kunjungan</span>
 </button>
 <!-- Info Catatan -->
@@ -677,7 +677,7 @@ export default function Page() {
 <!-- Fasilitas 1 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">directions_bus</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">directions_bus</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Area Parkir Luas</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -687,7 +687,7 @@ export default function Page() {
 <!-- Fasilitas 2 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">tv</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">tv</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Ruang Teater Edukasi Ber-AC</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -697,7 +697,7 @@ export default function Page() {
 <!-- Fasilitas 3 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">sanitizer</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">sanitizer</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Koridor Pabrik Kaca &amp; APD</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -707,7 +707,7 @@ export default function Page() {
 <!-- Fasilitas 4 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">mosque</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">mosque</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Mushola &amp; Toilet Bersih</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -717,7 +717,7 @@ export default function Page() {
 <!-- Fasilitas 5 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">storefront</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">storefront</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Tasting Bar &amp; Toko Resmi</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -727,7 +727,7 @@ export default function Page() {
 <!-- Fasilitas 6 -->
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm">
-<span class="material-symbols-outlined text-[24px]">photo_camera</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">photo_camera</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Spot Foto Lereng Dieng</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -749,17 +749,17 @@ export default function Page() {
           </p>
 <div class="flex flex-col gap-3 pt-2 font-body-sm text-body-sm text-on-surface">
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-secondary">distance</span>
+<span class="material-symbols-outlined text-secondary notranslate" translate="no">distance</span>
 <span>25 Menit dari Alun-Alun Wonosobo</span>
 </div>
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-secondary">explore</span>
+<span class="material-symbols-outlined text-secondary notranslate" translate="no">explore</span>
 <span>15 Menit sebelum Kawasan Wisata Candi Arjuna Dieng</span>
 </div>
 </div>
 <div class="pt-2">
 <a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-secondary text-on-secondary font-label-md text-label-md font-semibold hover:bg-on-secondary-fixed-variant transition-colors" href="https://maps.google.com" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[18px]">near_me</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">near_me</span>
 <span>Buka Petunjuk Arah Google Maps</span>
 </a>
 </div>
@@ -787,7 +787,7 @@ export default function Page() {
 <details class="group bg-surface-container-low p-6 rounded-2xl [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer" open="">
 <summary class="flex items-center justify-between font-headline-sm text-headline-sm font-bold text-on-surface">
 <span>Berapa minimal jumlah peserta untuk reservasi rombongan?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <p class="font-body-md text-body-md text-on-surface-variant pt-3 leading-relaxed">
             Minimal reservasi rombongan edukasi adalah 20 orang. Untuk kelompok di bawah 20 orang, tetap dapat memesan paket dengan membayar biaya setara kuota minimal 20 pax, atau mengikuti tur reguler non-edukasi di outlet tasting bar kami.
@@ -797,7 +797,7 @@ export default function Page() {
 <details class="group bg-surface-container-low p-6 rounded-2xl [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
 <summary class="flex items-center justify-between font-headline-sm text-headline-sm font-bold text-on-surface">
 <span>Apakah tiket masuk sudah termasuk produk oleh-oleh yang bisa dibawa pulang?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <p class="font-body-md text-body-md text-on-surface-variant pt-3 leading-relaxed">
             Ya! Pada Paket Agrowisata Karya (SMP/SMA/Kuliah), setiap peserta memperoleh 1 cup Carica Gemilang 120g segar. Untuk Paket Studi Banding Korporat mendapatkan souvenir 1 glass jar premium 350g, sedangkan Paket Tunas mendapatkan stiker &amp; minuman icip cup.
@@ -807,7 +807,7 @@ export default function Page() {
 <details class="group bg-surface-container-low p-6 rounded-2xl [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
 <summary class="flex items-center justify-between font-headline-sm text-headline-sm font-bold text-on-surface">
 <span>Bagaimana jika jadwal kunjungan ingin direschedule karena kendala transportasi?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <p class="font-body-md text-body-md text-on-surface-variant pt-3 leading-relaxed">
             Perubahan jadwal dapat diajukan maksimal H-3 sebelum tanggal kunjungan melalui konfirmasi WhatsApp Admin tanpa dikenakan biaya administrasi, selama kuota tanggal tujuan pengganti masih tersedia.
@@ -817,7 +817,7 @@ export default function Page() {
 <details class="group bg-surface-container-low p-6 rounded-2xl [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
 <summary class="flex items-center justify-between font-headline-sm text-headline-sm font-bold text-on-surface">
 <span>Apakah anak-anak di bawah 5 tahun dikenakan biaya?</span>
-<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180">expand_more</span>
+<span class="material-symbols-outlined text-secondary transition-transform group-open:rotate-180 notranslate" translate="no">expand_more</span>
 </summary>
 <p class="font-body-md text-body-md text-on-surface-variant pt-3 leading-relaxed">
             Anak-anak berusia di bawah 5 tahun (balita) yang mendampingi rombongan tidak dikenakan biaya masuk (gratis), namun tidak mendapatkan fasilitas modul edukasi, suvenir cup, dan sertifikat kunjungan resmi.
@@ -834,7 +834,7 @@ export default function Page() {
 <div class="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-secondary-fixed/10 pointer-events-none"></div>
 <div class="flex flex-col gap-3 max-w-2xl relative z-10">
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed/20 text-secondary-fixed w-fit font-label-sm text-label-sm font-bold tracking-wide uppercase">
-<span class="material-symbols-outlined text-[16px]">support_agent</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">support_agent</span>
 <span>Layanan Pendampingan Edukasi</span>
 </div>
 <h3 class="font-headline-lg text-headline-lg font-bold tracking-tight text-on-secondary">
@@ -846,11 +846,11 @@ export default function Page() {
 </div>
 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 relative z-10 w-full lg:w-auto">
 <a class="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-fixed-dim transition-all" href="https://wa.me/6281234567890" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
 <span>Konsultasi WhatsApp Edukasi</span>
 </a>
 <button class="inline-flex items-center justify-center gap-2 px-5 py-4 rounded-xl bg-on-secondary/10 hover:bg-on-secondary/20 text-on-secondary font-label-lg text-label-lg transition-colors" onclick="alert('Mengunduh Panduan &amp; Silabus Agrowisata Carica Gemilang (PDF)...');">
-<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">download</span>
 <span>Silabus Edukasi (PDF)</span>
 </button>
 </div>

@@ -17,17 +17,17 @@ export default function Page() {
 <!-- Origin & Authenticity Floating Badge -->
 <div class="absolute top-4 left-4 z-10 flex flex-col gap-2">
 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm shadow-sm">
-<span class="material-symbols-outlined text-[14px]">verified</span>
+<span class="material-symbols-outlined text-[14px] notranslate" translate="no">verified</span>
               Grade A+ Petani Kejajar
             </span>
 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold shadow-sm">
-<span class="material-symbols-outlined text-[14px]">altitude</span>
+<span class="material-symbols-outlined text-[14px] notranslate" translate="no">altitude</span>
               2.093 mdpl Highland
             </span>
 </div>
 <!-- Glass Zoom Hint -->
 <button aria-label="Perbesar gambar" class="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:bg-surface-container-lowest shadow-sm transition-transform active:scale-95">
-<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">zoom_in</span>
 </button>
 </div>
 <!-- Thumbnails Strip -->
@@ -49,7 +49,7 @@ export default function Page() {
 <div class="grid grid-cols-2 gap-3 p-4 rounded-xl bg-surface-container-low">
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-secondary shadow-sm">
-<span class="material-symbols-outlined text-[20px]">shield</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">shield</span>
 </div>
 <div>
 <p class="font-label-md text-label-md font-bold text-on-surface">Kaca Food-Grade</p>
@@ -58,7 +58,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-secondary shadow-sm">
-<span class="material-symbols-outlined text-[20px]">inventory_2</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">inventory_2</span>
 </div>
 <div>
 <p class="font-label-md text-label-md font-bold text-on-surface">Garansi Pecah</p>
@@ -85,14 +85,14 @@ export default function Page() {
           </h1>
 <div class="flex flex-wrap items-center gap-3">
 <div class="flex items-center gap-1 text-primary">
-<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">star</span>
 <span class="font-label-lg text-label-lg font-bold text-on-surface">5.0</span>
 </div>
 <span class="text-outline-variant">•</span>
 <span class="font-label-md text-label-md text-on-surface-variant underline decoration-dotted">340+ Ulasan Terverifikasi</span>
 <span class="text-outline-variant">•</span>
 <span class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-semibold">
-<span class="material-symbols-outlined text-[16px]">local_mall</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">local_mall</span>
               12.800+ Jar Terjual
             </span>
 </div>
@@ -115,7 +115,7 @@ export default function Page() {
 <div class="p-3.5 rounded-xl bg-surface-container-low flex flex-col gap-2">
 <div class="flex items-center justify-between font-label-sm text-label-sm text-secondary font-bold">
 <span class="flex items-center gap-1.5">
-<span class="material-symbols-outlined text-[16px]">loyalty</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">loyalty</span>
                 Program Harga Grosir &amp; Rombongan
               </span>
 <span class="text-on-surface-variant font-normal">Otomatis Terpotong</span>
@@ -159,11 +159,11 @@ export default function Page() {
 <div class="flex items-center gap-4">
 <div class="flex items-center rounded-xl bg-surface-container-lowest p-1 shadow-sm">
 <button aria-label="Kurangi jumlah" class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" onclick="adjustQty(-1)">
-<span class="material-symbols-outlined text-[18px]">remove</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">remove</span>
 </button>
 <input class="w-12 text-center font-headline-sm text-headline-sm font-bold bg-transparent text-on-surface select-none" id="qty-val" readonly="" type="text" value="1">
 <button aria-label="Tambah jumlah" class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" onclick="adjustQty(1)">
-<span class="material-symbols-outlined text-[18px]">add</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">add</span>
 </button>
 </div>
 <div class="flex-1">
@@ -174,11 +174,11 @@ export default function Page() {
 <!-- Primary CTA WhatsApp Order -->
 <div class="grid grid-cols-1 sm:grid-cols-12 gap-3">
 <a class="sm:col-span-8 flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-primary-container hover:bg-primary-fixed-dim text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:-translate-y-0.5 transition-all text-center" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20memesan%201%20Jar%20Carica%20Dieng%20Premium%20350g." id="wa-cta" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[22px]">chat</span>
+<span class="material-symbols-outlined text-[22px] notranslate" translate="no">chat</span>
 <span>Pesan via WhatsApp Sekarang</span>
 </a>
 <button class="sm:col-span-4 flex items-center justify-center gap-2 px-4 py-4 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-secondary font-label-lg text-label-lg font-bold transition-all text-center" onclick="openInquiryModal()" type="button">
-<span class="material-symbols-outlined text-[18px]">corporate_fare</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">corporate_fare</span>
 <span>Grosir / B2B</span>
 </button>
 </div>
@@ -186,28 +186,28 @@ export default function Page() {
 <!-- Trust Badges Matrix (4 Micro-Cards) -->
 <div class="grid grid-cols-2 gap-3 pt-2">
 <div class="p-3 rounded-xl bg-surface-container-lowest shadow-xs flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">verified</span>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 notranslate" translate="no">verified</span>
 <div>
 <p class="font-label-sm text-label-sm font-bold text-on-surface">BPOM &amp; Halal Resmi</p>
 <p class="font-body-sm text-body-sm text-on-surface-variant">MD 203611001099</p>
 </div>
 </div>
 <div class="p-3 rounded-xl bg-surface-container-lowest shadow-xs flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">nature</span>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 notranslate" translate="no">nature</span>
 <div>
 <p class="font-label-sm text-label-sm font-bold text-on-surface">100% Gula Tebu Alami</p>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Tanpa pemanis buatan</p>
 </div>
 </div>
 <div class="p-3 rounded-xl bg-surface-container-lowest shadow-xs flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">schedule</span>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 notranslate" translate="no">schedule</span>
 <div>
 <p class="font-label-sm text-label-sm font-bold text-on-surface">Jaminan Fresh Batch</p>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Maks 7 hari dari masak</p>
 </div>
 </div>
 <div class="p-3 rounded-xl bg-surface-container-lowest shadow-xs flex items-start gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">published_with_changes</span>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5 notranslate" translate="no">published_with_changes</span>
 <div>
 <p class="font-label-sm text-label-sm font-bold text-on-surface">Garansi Pecah 100%</p>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Kirim video unboxing</p>
@@ -248,14 +248,14 @@ export default function Page() {
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
 <div class="p-4 rounded-2xl bg-surface-container-low flex flex-col gap-1">
 <span class="font-label-md text-label-md font-bold text-secondary flex items-center gap-1.5">
-<span class="material-symbols-outlined text-[18px]">eco</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">eco</span>
                   Hand-Picked Selection
                 </span>
 <span class="font-body-sm text-body-sm text-on-surface-variant">Setiap butir buah disortir manual untuk memastikan tingkat kematangan 85-90% optimal.</span>
 </div>
 <div class="p-4 rounded-2xl bg-surface-container-low flex flex-col gap-1">
 <span class="font-label-md text-label-md font-bold text-secondary flex items-center gap-1.5">
-<span class="material-symbols-outlined text-[18px]">water_drop</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">water_drop</span>
                   No Artificial Additives
                 </span>
 <span class="font-body-sm text-body-sm text-on-surface-variant">Bebas natrium siklamat, tanpa pemanis buatan, dan tanpa perisa kimia sintetik.</span>
@@ -344,7 +344,7 @@ export default function Page() {
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
-<span class="material-symbols-outlined text-[24px]">ac_unit</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">ac_unit</span>
 </div>
 <h4 class="font-title-md text-title-md font-bold text-on-surface">Paling Nikmat Disajikan Dingin</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -353,7 +353,7 @@ export default function Page() {
 </div>
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center text-on-primary-container">
-<span class="material-symbols-outlined text-[24px]">wb_twilight</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">wb_twilight</span>
 </div>
 <h4 class="font-title-md text-title-md font-bold text-on-surface">Penyimpanan Sebelum Dibuka</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -362,7 +362,7 @@ export default function Page() {
 </div>
 <div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-3">
 <div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined text-[24px]">kitchen</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">kitchen</span>
 </div>
 <h4 class="font-title-md text-title-md font-bold text-on-surface">Setelah Tutup Dibuka</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -381,7 +381,7 @@ export default function Page() {
 <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 <div class="lg:col-span-8 flex flex-col gap-3">
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold w-fit">
-<span class="material-symbols-outlined text-[16px]">card_giftcard</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">card_giftcard</span>
             Bespoke Event &amp; Corporate Hampers
           </div>
 <h2 class="font-headline-lg text-headline-lg font-bold text-on-secondary">
@@ -393,11 +393,11 @@ export default function Page() {
 </div>
 <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
 <a class="px-6 py-3.5 rounded-xl bg-primary-container hover:bg-primary-fixed-dim text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-sm transition-all text-center flex items-center justify-center gap-2" href="https://wa.me/6281234567890?text=Halo%20Tim%20Carica%20Gemilang,%20saya%20tertarik%20konsultasi%20paket%20hampers%20custom/B2B." rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">chat</span>
             Hubungi Tim B2B Gift
           </a>
 <button class="px-6 py-3.5 rounded-xl bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-secondary font-label-lg text-label-lg font-semibold transition-all text-center flex items-center justify-center gap-2" onclick="document.getElementById('catalog-modal').classList.remove('hidden')" type="button">
-<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">download</span>
             Unduh Brosur Katalog Korporat
           </button>
 </div>
@@ -414,7 +414,7 @@ export default function Page() {
 </div>
 <a class="inline-flex items-center gap-1 font-label-lg text-label-lg text-secondary font-bold hover:underline" href="/produk">
           Lihat Semua Produk
-          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+          <span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_forward</span>
 </a>
 </div>
 <!-- 3 Recommended Product Cards Grid -->
@@ -500,7 +500,7 @@ export default function Page() {
 <div class="flex items-center justify-between">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Permintaan Penawaran Grosir</h3>
 <button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high" onclick="closeInquiryModal()">
-<span class="material-symbols-outlined text-[18px]">close</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">close</span>
 </button>
 </div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">
@@ -529,7 +529,7 @@ export default function Page() {
 <div class="fixed inset-0 z-50 flex items-center justify-center bg-on-surface/50 backdrop-blur-sm hidden p-4" id="catalog-modal">
 <div class="bg-surface-container-lowest max-w-md w-full rounded-3xl p-6 shadow-xl flex flex-col gap-4 text-center">
 <div class="w-12 h-12 rounded-full bg-secondary-container text-secondary mx-auto flex items-center justify-center">
-<span class="material-symbols-outlined text-[24px]">task_alt</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">task_alt</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Katalog Korporat 2026 Tersedia</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant">

@@ -19,7 +19,7 @@ export default function Page() {
 <div class="lg:col-span-7 flex flex-col items-start z-10">
 <!-- Terroir / Heritage Badge -->
 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary-container/60 text-on-secondary-fixed text-label-md font-label-md mb-6 shadow-sm">
-<span class="material-symbols-outlined text-[16px] text-secondary">park</span>
+<span class="material-symbols-outlined text-[16px] text-secondary notranslate" translate="no">park</span>
 <span>Cita Rasa Autentik Dataran Tinggi Dieng • 2.093 mdpl</span>
 </div>
 <!-- Main Impact Headline -->
@@ -41,10 +41,10 @@ export default function Page() {
 <div class="flex flex-wrap items-center gap-4 mb-10">
 <a class="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg shadow-md hover:bg-inverse-primary hover:shadow-lg transition-all duration-200 group" href="#katalog">
 <span>Jelajahi Katalog Produk</span>
-<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform notranslate" translate="no">arrow_forward</span>
 </a>
 <a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg shadow-sm hover:bg-surface-container hover:text-on-surface transition-all duration-200" href="#wisata-edukasi">
-<span class="material-symbols-outlined text-[20px] text-tertiary">calendar_month</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary notranslate" translate="no">calendar_month</span>
 <span>Wisata Edukasi</span>
 </a>
 </div>
@@ -52,7 +52,7 @@ export default function Page() {
 <div class="w-full sm:w-auto p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-wrap items-center gap-6">
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined text-[20px]">verified</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">verified</span>
 </div>
 <div class="flex flex-col">
 <span class="text-label-sm font-label-sm uppercase tracking-wider text-outline">Terverifikasi</span>
@@ -62,7 +62,7 @@ export default function Page() {
 <div class="hidden sm:block w-px h-8 bg-outline-variant/50"></div>
 <div class="flex items-center gap-3">
 <div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[20px]">filter_vintage</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">filter_vintage</span>
 </div>
 <div class="flex flex-col">
 <span class="text-label-sm font-label-sm uppercase tracking-wider text-outline">Mutu Terjamin</span>
@@ -99,13 +99,13 @@ export default function Page() {
 <p class="text-title-md font-title-md text-on-surface font-bold leading-tight">Carica Jar Kaca 350g</p>
 </div>
 <div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">star</span>
 </div>
 </div>
 </div>
 <!-- Altitude Floating Badge -->
 <div class="absolute -top-4 -right-4 bg-surface-container-lowest px-4 py-2.5 rounded-xl shadow-md flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary text-[22px]">terrain</span>
+<span class="material-symbols-outlined text-secondary text-[22px] notranslate" translate="no">terrain</span>
 <div class="text-left">
 <span class="text-label-sm font-label-sm block text-outline leading-tight">Elevasi Kebun</span>
 <span class="text-label-md font-label-md font-bold text-secondary">2.093 mdpl</span>
@@ -118,7 +118,7 @@ export default function Page() {
 <div class="mt-20 pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 bg-surface-container-lowest rounded-2xl p-5 sm:p-6 shadow-sm border border-outline-variant/20">
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-secondary flex-shrink-0">
-<span class="material-symbols-outlined text-[24px]">eco</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">eco</span>
 </div>
 <div>
 <span class="text-headline-sm sm:text-headline-md font-headline-sm sm:font-headline-md font-bold text-on-surface block leading-tight">100%</span>
@@ -127,7 +127,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed flex-shrink-0">
-<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">workspace_premium</span>
 </div>
 <div>
 <span class="text-headline-sm sm:text-headline-md font-headline-sm sm:font-headline-md font-bold text-on-surface block leading-tight">BPOM &amp; Halal</span>
@@ -136,7 +136,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary flex-shrink-0">
-<span class="material-symbols-outlined text-[24px]">groups</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">groups</span>
 </div>
 <div>
 <span class="text-headline-sm sm:text-headline-md font-headline-sm sm:font-headline-md font-bold text-on-surface block leading-tight">50.000+</span>
@@ -145,7 +145,7 @@ export default function Page() {
 </div>
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-on-surface flex-shrink-0">
-<span class="material-symbols-outlined text-[24px]">storefront</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">storefront</span>
 </div>
 <div>
 <span class="text-headline-sm sm:text-headline-md font-headline-sm sm:font-headline-md font-bold text-on-surface block leading-tight">180+ Mitra</span>
@@ -169,7 +169,7 @@ export default function Page() {
 <!-- Floating Heritage Card -->
 <div class="absolute -bottom-8 -right-4 sm:right-6 bg-secondary text-on-secondary p-5 sm:p-6 rounded-2xl shadow-xl max-w-xs">
 <div class="flex items-center gap-2 mb-2 text-primary-fixed font-label-md">
-<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">verified_user</span>
 <span>Kearifan Lokal Sejak 2012</span>
 </div>
 <p class="text-body-sm font-body-sm text-surface-variant leading-relaxed">
@@ -180,7 +180,7 @@ export default function Page() {
 <!-- Right Editorial Text -->
 <div class="lg:col-span-6 flex flex-col items-start">
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-tertiary text-label-md font-label-md mb-3">
-<span class="material-symbols-outlined text-[15px]">psychiatry</span>
+<span class="material-symbols-outlined text-[15px] notranslate" translate="no">psychiatry</span>
 <span>Tentang Carica Gemilang</span>
 </div>
 <h2 class="text-headline-lg font-headline-lg text-on-surface font-extrabold tracking-tight mb-5 leading-snug">
@@ -193,7 +193,7 @@ export default function Page() {
 <div class="space-y-4 w-full mb-8">
 <div class="flex items-start gap-4 p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
 <div class="w-9 h-9 rounded-lg bg-secondary-container flex items-center justify-center text-secondary flex-shrink-0 mt-0.5">
-<span class="material-symbols-outlined text-[20px]">agriculture</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">agriculture</span>
 </div>
 <div>
 <h4 class="text-title-md font-title-md text-on-surface font-bold">Dipetik Langsung dari Kebun Dataran Tinggi</h4>
@@ -202,7 +202,7 @@ export default function Page() {
 </div>
 <div class="flex items-start gap-4 p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
 <div class="w-9 h-9 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed flex-shrink-0 mt-0.5">
-<span class="material-symbols-outlined text-[20px]">water_drop</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">water_drop</span>
 </div>
 <div>
 <h4 class="text-title-md font-title-md text-on-surface font-bold">Sirup Gula Tebu Alami Tanpa Pemanis Sintetis</h4>
@@ -211,7 +211,7 @@ export default function Page() {
 </div>
 <div class="flex items-start gap-4 p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
 <div class="w-9 h-9 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary flex-shrink-0 mt-0.5">
-<span class="material-symbols-outlined text-[20px]">sanitizer</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">sanitizer</span>
 </div>
 <div>
 <h4 class="text-title-md font-title-md text-on-surface font-bold">Standar Sanitasi CPPOB &amp; Sterilisasi Termal</h4>
@@ -221,7 +221,7 @@ export default function Page() {
 </div>
 <a class="inline-flex items-center gap-2 text-secondary font-label-lg text-label-lg font-bold hover:text-primary transition-colors group" data-path="tentang-kami" href="/tentang-kami">
 <span>Pelajari Filosofi &amp; Kisah Kebun Kami</span>
-<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1.5 transition-transform">arrow_forward</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1.5 transition-transform notranslate" translate="no">arrow_forward</span>
 </a>
 </div>
 </div>
@@ -236,7 +236,7 @@ export default function Page() {
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
 <div>
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-secondary text-label-md font-label-md mb-2">
-<span class="material-symbols-outlined text-[15px]">stars</span>
+<span class="material-symbols-outlined text-[15px] notranslate" translate="no">stars</span>
 <span>Koleksi Terlaris Dieng</span>
 </div>
 <h2 class="text-headline-lg font-headline-lg text-on-surface font-extrabold tracking-tight">
@@ -248,7 +248,7 @@ export default function Page() {
 </div>
 <a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg shadow-sm hover:bg-secondary hover:text-on-secondary transition-all" data-path="produk" href="/produk">
 <span>Semua Varian Produk</span>
-<span class="material-symbols-outlined text-[18px]">tune</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">tune</span>
 </a>
 </div>
 <!-- Product Cards Grid (4 items) -->
@@ -277,7 +277,7 @@ export default function Page() {
 <div class="pt-4 flex items-center justify-between">
 <span class="text-title-md font-title-md font-extrabold text-secondary">Rp 35.000</span>
 <a class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container hover:bg-primary-container hover:text-on-secondary-fixed transition-colors" data-path="produk" href="/produk/detail">
-<span class="material-symbols-outlined text-[20px]">add_shopping_cart</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">add_shopping_cart</span>
 </a>
 </div>
 </div>
@@ -305,7 +305,7 @@ export default function Page() {
 <div class="pt-4 flex items-center justify-between">
 <span class="text-title-md font-title-md font-extrabold text-secondary">Rp 48.000</span>
 <a class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container hover:bg-primary-container hover:text-on-secondary-fixed transition-colors" data-path="produk" href="/produk/detail">
-<span class="material-symbols-outlined text-[20px]">add_shopping_cart</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">add_shopping_cart</span>
 </a>
 </div>
 </div>
@@ -333,7 +333,7 @@ export default function Page() {
 <div class="pt-4 flex items-center justify-between">
 <span class="text-title-md font-title-md font-extrabold text-secondary">Rp 30.000</span>
 <a class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container hover:bg-primary-container hover:text-on-secondary-fixed transition-colors" data-path="produk" href="/produk/detail">
-<span class="material-symbols-outlined text-[20px]">add_shopping_cart</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">add_shopping_cart</span>
 </a>
 </div>
 </div>
@@ -361,7 +361,7 @@ export default function Page() {
 <div class="pt-4 flex items-center justify-between">
 <span class="text-title-md font-title-md font-extrabold text-secondary">Rp 26.000</span>
 <a class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container hover:bg-primary-container hover:text-on-secondary-fixed transition-colors" data-path="produk" href="/produk/detail">
-<span class="material-symbols-outlined text-[20px]">add_shopping_cart</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">add_shopping_cart</span>
 </a>
 </div>
 </div>
@@ -370,7 +370,7 @@ export default function Page() {
 <div class="mt-12 text-center">
 <a class="inline-flex items-center gap-3 px-8 py-3.5 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg shadow-sm hover:bg-on-secondary-fixed-variant transition-all" data-path="produk" href="/produk">
 <span>Lihat Semua Produk &amp; Kemasan Souvenir</span>
-<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_forward</span>
 </a>
 </div>
 </div>
@@ -382,7 +382,7 @@ export default function Page() {
 <div class="max-w-[1320px] mx-auto px-6 lg:px-12">
 <div class="text-center max-w-2xl mx-auto mb-16">
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container text-tertiary text-label-md font-label-md mb-3">
-<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">verified</span>
 <span>Keunggulan Mutu Teruji</span>
 </div>
 <h2 class="text-headline-lg font-headline-lg text-on-surface font-extrabold tracking-tight">
@@ -398,7 +398,7 @@ export default function Page() {
 <div class="p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm flex flex-col justify-between">
 <div>
 <div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-secondary mb-6">
-<span class="material-symbols-outlined text-[30px]">landscape</span>
+<span class="material-symbols-outlined text-[30px] notranslate" translate="no">landscape</span>
 </div>
 <h3 class="text-title-md font-title-md font-bold text-on-surface mb-3 leading-snug">
               Buah Asli Pegunungan Dieng
@@ -415,7 +415,7 @@ export default function Page() {
 <div class="p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm flex flex-col justify-between">
 <div>
 <div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-6">
-<span class="material-symbols-outlined text-[30px]">clean_hands</span>
+<span class="material-symbols-outlined text-[30px] notranslate" translate="no">clean_hands</span>
 </div>
 <h3 class="text-title-md font-title-md font-bold text-on-surface mb-3 leading-snug">
               Sanitasi Modern CPPOB
@@ -432,7 +432,7 @@ export default function Page() {
 <div class="p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm flex flex-col justify-between">
 <div>
 <div class="w-14 h-14 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-tertiary mb-6">
-<span class="material-symbols-outlined text-[30px]">nature</span>
+<span class="material-symbols-outlined text-[30px] notranslate" translate="no">nature</span>
 </div>
 <h3 class="text-title-md font-title-md font-bold text-on-surface mb-3 leading-snug">
               Murni Tanpa Pemanis Buatan
@@ -449,7 +449,7 @@ export default function Page() {
 <div class="p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm flex flex-col justify-between">
 <div>
 <div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-on-surface mb-6">
-<span class="material-symbols-outlined text-[30px]">handshake</span>
+<span class="material-symbols-outlined text-[30px] notranslate" translate="no">handshake</span>
 </div>
 <h3 class="text-title-md font-title-md font-bold text-on-surface mb-3 leading-snug">
               Pemberdayaan Petani Mandiri
@@ -476,7 +476,7 @@ export default function Page() {
 <!-- Left Banner Info -->
 <div class="lg:col-span-6 flex flex-col items-start">
 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary-container text-on-secondary-fixed text-label-md font-label-md mb-4 shadow-sm">
-<span class="material-symbols-outlined text-[16px]">school</span>
+<span class="material-symbols-outlined text-[16px] notranslate" translate="no">school</span>
 <span>Program Edukasi &amp; Agrowisata Unggulan</span>
 </div>
 <h2 class="text-display-lg font-display-lg font-extrabold text-on-secondary tracking-tight leading-tight mb-5">
@@ -488,26 +488,26 @@ export default function Page() {
 <!-- Interactive Highlights Checklist -->
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-8">
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px]">check_circle</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] notranslate" translate="no">check_circle</span>
 <span class="text-body-md font-body-md text-surface-variant font-medium">Factory Tour Langsung</span>
 </div>
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px]">check_circle</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] notranslate" translate="no">check_circle</span>
 <span class="text-body-md font-body-md text-surface-variant font-medium">Workshop Olahan Mandiri</span>
 </div>
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px]">check_circle</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] notranslate" translate="no">check_circle</span>
 <span class="text-body-md font-body-md text-surface-variant font-medium">Icip-Icip Segar Gratis</span>
 </div>
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px]">check_circle</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] notranslate" translate="no">check_circle</span>
 <span class="text-body-md font-body-md text-surface-variant font-medium">Sertifikat Kunjungan Siswa</span>
 </div>
 </div>
 <!-- Schedule alert badge -->
 <div class="p-4 rounded-xl bg-surface-container-highest/15 backdrop-blur-md w-full mb-8 flex items-center justify-between gap-4">
 <div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary-fixed text-[22px]">event_available</span>
+<span class="material-symbols-outlined text-primary-fixed text-[22px] notranslate" translate="no">event_available</span>
 <span class="text-body-sm font-body-sm text-surface-variant">
 <strong>Kuota Terbuka Bulan Ini:</strong> Sesi Pagi (09.00 WIB) &amp; Sesi Siang (13.30 WIB)
               </span>
@@ -519,11 +519,11 @@ export default function Page() {
 <!-- Action -->
 <div class="flex flex-wrap items-center gap-4">
 <a class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl bg-primary-container text-on-secondary-fixed font-label-lg text-label-lg shadow-md hover:bg-inverse-primary transition-all" data-path="wisata-edukasi" href="/wisata-edukasi">
-<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span class="material-symbols-outlined text-[20px] notranslate" translate="no">calendar_today</span>
 <span>Reservasi Kunjungan Edukasi</span>
 </a>
 <a class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-secondary-fixed/20 text-on-secondary font-label-lg text-label-lg hover:bg-secondary-fixed/30 transition-all" href="https://wa.me/6281234567890" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">chat</span>
 <span>Tanya Paket Rombongan</span>
 </a>
 </div>
@@ -562,7 +562,7 @@ export default function Page() {
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
 <div>
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-secondary text-label-md font-label-md mb-2">
-<span class="material-symbols-outlined text-[15px]">photo_camera</span>
+<span class="material-symbols-outlined text-[15px] notranslate" translate="no">photo_camera</span>
 <span>Jendela Dataran Tinggi</span>
 </div>
 <h2 class="text-headline-lg font-headline-lg text-on-surface font-extrabold tracking-tight">
@@ -574,7 +574,7 @@ export default function Page() {
 </div>
 <a class="inline-flex items-center gap-2 text-secondary font-label-lg text-label-lg font-bold hover:text-primary transition-colors group" data-path="galeri" href="/galeri">
 <span>Buka Galeri Lengkap</span>
-<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform notranslate" translate="no">arrow_forward</span>
 </a>
 </div>
 <!-- Asymmetrical Gallery Grid -->
@@ -655,7 +655,7 @@ export default function Page() {
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
 <div class="lg:col-span-8 flex flex-col items-start">
 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest text-on-secondary-fixed text-label-md font-label-md mb-4 shadow-sm">
-<span class="material-symbols-outlined text-[16px] text-tertiary">handshake</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary notranslate" translate="no">handshake</span>
 <span>Peluang Bisnis Kuliner &amp; Oleh-Oleh</span>
 </div>
 <h2 class="text-headline-lg lg:text-display-lg font-headline-lg lg:font-display-lg font-extrabold text-on-secondary-fixed tracking-tight leading-tight mb-4">
@@ -667,19 +667,19 @@ export default function Page() {
 <!-- Benefit Pills -->
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-2xl mb-8">
 <div class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[20px] notranslate" translate="no">check_circle</span>
 <span class="text-body-sm font-body-sm font-bold text-on-secondary-fixed">Margin Reseller Sangat Menarik</span>
 </div>
 <div class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[20px] notranslate" translate="no">check_circle</span>
 <span class="text-body-sm font-body-sm font-bold text-on-secondary-fixed">Dukungan Konten &amp; Media Promosi</span>
 </div>
 <div class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[20px] notranslate" translate="no">check_circle</span>
 <span class="text-body-sm font-body-sm font-bold text-on-secondary-fixed">Jaminan Stok Fresh Pabrik Harian</span>
 </div>
 <div class="flex items-center gap-2.5">
-<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-secondary text-[20px] notranslate" translate="no">check_circle</span>
 <span class="text-body-sm font-body-sm font-bold text-on-secondary-fixed">Pengiriman Aman Ekspedisi Khusus</span>
 </div>
 </div>
@@ -687,20 +687,20 @@ export default function Page() {
 <div class="flex flex-wrap items-center gap-4">
 <a class="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg shadow-md hover:bg-on-secondary-fixed-variant transition-all" data-path="kemitraan" href="/kemitraan">
 <span>Daftar Menjadi Mitra</span>
-<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+<span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_forward</span>
 </a>
 <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-lg text-label-lg shadow-sm hover:bg-surface-container transition-all" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20tanya%20info%20kemitraan%20reseller" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[18px] text-tertiary">chat</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary notranslate" translate="no">chat</span>
 <span>Konsultasi WhatsApp Cepat</span>
 </a>
-<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg shadow-sm hover:bg-secondary hover:text-on-secondary transition-all" data-path="kemitraan" href="/cari-reseller"><span class="material-symbols-outlined text-[18px]">storefront</span><span>Cari Reseller Terdekat</span></a></div>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-secondary font-label-lg text-label-lg shadow-sm hover:bg-secondary hover:text-on-secondary transition-all" data-path="kemitraan" href="/cari-reseller"><span class="material-symbols-outlined text-[18px] notranslate" translate="no">storefront</span><span>Cari Reseller Terdekat</span></a></div>
 </div>
 <!-- Right Showcase Box / Partner Metric Card -->
 <div class="lg:col-span-4">
 <div class="bg-surface-container-lowest p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col gap-4 sm:gap-5 w-full">
 <div class="flex items-center gap-3">
 <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined text-[24px]">store</span>
+<span class="material-symbols-outlined text-[24px] notranslate" translate="no">store</span>
 </div>
 <div>
 <span class="text-label-sm font-label-sm uppercase tracking-wider text-outline">Jangkauan Distribusi</span>
@@ -716,7 +716,7 @@ export default function Page() {
 <div class="pt-2 flex items-center justify-between text-body-sm font-body-sm text-outline">
 <span>Minimal order reseller ramah</span>
 <strong class="text-secondary">Mulai 1 Karton</strong>
-</div><a class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-secondary-fixed/40 text-on-secondary-fixed font-label-sm font-bold hover:bg-secondary hover:text-on-secondary transition-colors text-center" data-path="kemitraan" href="/cari-reseller"><span class="material-symbols-outlined text-[16px]">near_me</span><span>Lihat Toko &amp; Reseller Terdekat</span></a>
+</div><a class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-secondary-fixed/40 text-on-secondary-fixed font-label-sm font-bold hover:bg-secondary hover:text-on-secondary transition-colors text-center" data-path="kemitraan" href="/cari-reseller"><span class="material-symbols-outlined text-[16px] notranslate" translate="no">near_me</span><span>Lihat Toko &amp; Reseller Terdekat</span></a>
 </div>
 </div>
 </div>
@@ -731,7 +731,7 @@ export default function Page() {
 <span>Konsultasi Pesanan &amp; Wisata</span>
 </div>
 <a aria-label="Hubungi WhatsApp Carica Gemilang" class="w-14 h-14 rounded-full bg-secondary text-on-secondary shadow-xl hover:scale-110 active:scale-95 flex items-center justify-center transition-all duration-300 group" href="https://wa.me/6281234567890?text=Halo%20Carica%20Gemilang,%20saya%20ingin%20bertanya%20mengenai%20produk%20dan%20layanan" rel="noopener" target="_blank">
-<span class="material-symbols-outlined text-[28px] text-primary-fixed group-hover:rotate-12 transition-transform">chat</span>
+<span class="material-symbols-outlined text-[28px] text-primary-fixed group-hover:rotate-12 transition-transform notranslate" translate="no">chat</span>
 </a>
 </aside>
 </div>

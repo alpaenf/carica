@@ -55,9 +55,9 @@ body {
   overflow-x: hidden;
 }
 
-/* Material Symbols Outlined Fallback */
+/* Material Symbols Outlined Protection against Google Translate */
 .material-symbols-outlined {
-  font-family: 'Material Symbols Outlined';
+  font-family: 'Material Symbols Outlined' !important;
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -70,4 +70,12 @@ body {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+  translate: no !important;
+}
+
+/* Prevent Google Translate from translating icon text ligature */
+.notranslate,
+.material-symbols-outlined {
+  -webkit-user-select: none;
+  user-select: none;
 }
