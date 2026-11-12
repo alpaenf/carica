@@ -65,7 +65,7 @@ export default function AdminDashboardPage() {
             </div>
           </div>
           <div class="mt-4">
-            <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">Rp 24.850.000</div>
+            <div class="text-[24px] font-bold text-[#181d17] tracking-tight">Rp 24.850.000</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
                 <span class="material-symbols-outlined text-[14px] notranslate" translate="no">arrow_upward</span> +14.2%
@@ -88,7 +88,7 @@ export default function AdminDashboardPage() {
             </div>
           </div>
           <div class="mt-4">
-            <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">3.420 Karton</div>
+            <div class="text-[24px] font-bold text-[#181d17] tracking-tight">3.420 Karton</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
                 <span class="material-symbols-outlined text-[14px] notranslate" translate="no">check_circle</span> 92% Kapasitas
@@ -111,7 +111,7 @@ export default function AdminDashboardPage() {
             </div>
           </div>
           <div class="mt-4">
-            <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">184 Mitra</div>
+            <div class="text-[24px] font-bold text-[#181d17] tracking-tight">184 Mitra</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md">
                 <span class="material-symbols-outlined text-[14px] notranslate" translate="no">add</span> +6 Bulan Ini
@@ -134,7 +134,7 @@ export default function AdminDashboardPage() {
             </div>
           </div>
           <div class="mt-4">
-            <div class="text-[26px] font-extrabold text-[#181d17] tracking-tight">1.280 Wisatawan</div>
+            <div class="text-[24px] font-bold text-[#181d17] tracking-tight">1.280 Wisatawan</div>
             <div class="flex items-center gap-2 mt-1">
               <span class="inline-flex items-center gap-0.5 text-[12px] font-bold text-purple-700 bg-purple-50 px-2 py-0.5 rounded-md">
                 <span class="material-symbols-outlined text-[14px] notranslate" translate="no">event_available</span> 8 Rombongan
