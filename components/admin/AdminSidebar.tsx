@@ -125,16 +125,7 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
         </div>
 
         {/* Sidebar Footer */}
-        <div className="p-3.5 border-t border-[#e2e8dd] bg-[#f8faf5] flex flex-col gap-2.5">
-          <div className="p-2.5 bg-white rounded-lg border border-[#e2e8dd] flex items-center justify-between shadow-xs">
-            <div className="flex flex-col">
-              <span className="text-[10px] text-gray-400 font-bold uppercase">Pabrik Kejajar</span>
-              <span className="text-xs font-bold text-[#2e6a41]">Elevasi 2.093 mdpl</span>
-            </div>
-            <span className="px-1.5 py-0.5 bg-[#e8f5e9] text-[#2e6a41] rounded text-[10px] font-bold">
-              CPPOB A
-            </span>
-          </div>
+        <div className="p-3.5 border-t border-[#e2e8dd] bg-[#f8faf5]">
           <Link
             href="/"
             target="_blank"
