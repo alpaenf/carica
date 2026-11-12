@@ -1,178 +1,6 @@
-import Link from "next/link";
-
-export default function AdminPage() {
+export default function AdminDashboardPage() {
   return (
-    <div className="min-h-screen bg-[#f8faf5]" dangerouslySetInnerHTML={{ __html: `
-
-  <!-- Mobile Sidebar Backdrop Overlay -->
-  <div id="sidebar-backdrop" class="fixed inset-0 bg-black/40 backdrop-blur-xs z-40 hidden lg:hidden transition-opacity"></div>
-
-  <!-- Sidebar (Fixed Left, 256px) -->
-  <aside id="admin-sidebar" class="fixed left-0 top-0 h-full w-64 bg-white z-50 flex flex-col border-r border-[#e2e8dd] shadow-sm -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
-    <!-- Brand Logo -->
-    <div class="h-20 px-6 flex items-center justify-between border-b border-[#e2e8dd]">
-      <a href="/" class="flex items-center gap-3 group" title="Buka Beranda Website">
-        <div class="w-10 h-10 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-          <span class="material-symbols-outlined text-[24px] notranslate" translate="no">eco</span>
-        </div>
-        <div class="flex flex-col">
-          <span class="font-bold text-[#2e6a41] text-[17px] leading-tight">Carica Gemilang</span>
-          <span class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">Admin &amp; CMS Portal</span>
-        </div>
-      </a>
-      <button id="close-sidebar-btn" type="button" class="lg:hidden p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Tutup Sidebar">
-        <span class="material-symbols-outlined text-[20px] notranslate" translate="no">close</span>
-      </button>
-    </div>
-
-    <!-- Navigation Links -->
-    <div class="flex-1 overflow-y-auto px-4 py-5 space-y-6">
-      <!-- Operasional Menu -->
-      <div class="space-y-1">
-        <div class="px-3 text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Ringkasan &amp; Operasional</div>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#e8f5e9] text-[#2e6a41] font-bold text-[14px] shadow-xs transition-colors" href="/admin">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-[#2e6a41] notranslate" translate="no">grid_view</span>
-            <span>Dashboard Utama</span>
-          </div>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#pesanan">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">local_shipping</span>
-            <span>Pesanan &amp; Distribusi</span>
-          </div>
-          <span class="px-2 py-0.5 rounded-full bg-[#f6c900] text-[#181d17] text-[11px] font-bold">14 Baru</span>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#grafik">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">bar_chart</span>
-            <span>Tren &amp; Analitik</span>
-          </div>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="#stok-batch">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">inventory_2</span>
-            <span>Stok &amp; Batch CPPOB</span>
-          </div>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/cari-reseller">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">storefront</span>
-            <span>Reseller &amp; Toko</span>
-          </div>
-          <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[11px] font-bold">34 Kota</span>
-        </a>
-      </div>
-
-      <!-- CMS Halaman Publik -->
-      <div class="space-y-1">
-        <div class="px-3 text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Konten Website (CMS)</div>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/produk">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">category</span>
-            <span>Katalog Produk</span>
-          </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/wisata-edukasi">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">tour</span>
-            <span>Wisata Edukasi</span>
-          </div>
-          <span class="px-2 py-0.5 rounded-full bg-red-100 text-red-700 text-[11px] font-bold">5 Pending</span>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/kemitraan">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">handshake</span>
-            <span>Kemitraan Bisnis</span>
-          </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
-        </a>
-        <a class="flex items-center justify-between px-3.5 py-2.5 rounded-xl text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17] font-semibold text-[14px] transition-colors" href="/galeri">
-          <div class="flex items-center gap-3">
-            <span class="material-symbols-outlined text-[20px] text-gray-500 notranslate" translate="no">perm_media</span>
-            <span>Galeri &amp; Dokumentasi</span>
-          </div>
-          <span class="material-symbols-outlined text-[16px] text-gray-400 notranslate" translate="no">open_in_new</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- Sidebar Footer -->
-    <div class="p-4 border-t border-[#e2e8dd] bg-[#fdfefc] space-y-2.5">
-      <div class="px-3.5 py-2 bg-[#f1f5eb] rounded-xl flex items-center justify-between text-[12px]">
-        <div class="flex flex-col">
-          <span class="text-gray-400 font-medium">Sentra Pengolahan</span>
-          <span class="text-[#2e6a41] font-bold">2.093 mdpl</span>
-        </div>
-        <span class="px-2 py-0.5 bg-white text-[#2e6a41] rounded-md font-semibold text-[11px] shadow-xs">Kejajar, WSB</span>
-      </div>
-      <a href="/" class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white hover:bg-[#f6c900] text-[#2e6a41] hover:text-[#181d17] font-bold text-[13px] border border-[#d1dec6] transition-all shadow-xs group">
-        <div class="flex items-center gap-2">
-          <span class="material-symbols-outlined text-[18px] notranslate" translate="no">arrow_back</span>
-          <span>Ke Website Publik</span>
-        </div>
-        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform notranslate" translate="no">open_in_new</span>
-      </a>
-    </div>
-  </aside>
-
-  <!-- Content Layout (Offset Left: 256px on Desktop) -->
-  <div class="lg:pl-64 flex flex-col min-h-screen">
-    <!-- Header -->
-    <header class="fixed top-0 left-0 lg:left-64 right-0 h-20 bg-white/95 backdrop-blur-md z-30 border-b border-[#e2e8dd] shadow-xs transition-all">
-      <div class="h-20 w-full px-4 sm:px-8 flex items-center justify-between gap-4">
-        <!-- Search Bar & Mobile Trigger -->
-        <div class="flex items-center gap-3 flex-1 max-w-xl">
-          <button id="open-sidebar-btn" type="button" class="lg:hidden p-2 rounded-xl text-gray-600 hover:bg-gray-100 transition-colors" aria-label="Buka Menu Sidebar">
-            <span class="material-symbols-outlined text-[24px] notranslate" translate="no">menu</span>
-          </button>
-          <div class="w-full flex items-center bg-[#f8faf5] rounded-xl px-4 py-2 border border-[#dbe3d6] focus-within:border-[#2e6a41] focus-within:ring-2 focus-within:ring-[#2e6a41]/20 transition-all">
-            <span class="material-symbols-outlined text-gray-400 mr-2.5 text-[20px] notranslate" translate="no">search</span>
-            <input id="admin-search-input" class="w-full bg-transparent border-0 text-[14px] text-gray-800 placeholder:text-gray-400 focus:outline-none" placeholder="Cari nomor pesanan (#ORD), nama mitra, kota..." type="text">
-          </div>
-        </div>
-
-        <!-- Quick Actions & Profile -->
-        <div class="flex items-center gap-3 flex-shrink-0">
-          <div class="hidden xl:flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#e8f5e9] text-[#2e6a41] text-[12px] font-bold border border-[#c8e6c9]">
-            <span class="w-2 h-2 rounded-full bg-[#2e6a41] animate-pulse"></span>
-            <span>Pabrik Kejajar: Normal</span>
-          </div>
-
-          <a href="/" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#f1f5eb] hover:bg-[#e4edd9] text-[#2e6a41] text-[13px] font-bold transition-all border border-[#d5e0cb]">
-            <span class="material-symbols-outlined text-[16px] notranslate" translate="no">visibility</span>
-            <span>Lihat Web</span>
-          </a>
-
-          <button id="header-batch-btn" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#f6c900] hover:bg-[#eec200] text-[#181d17] text-[13px] font-bold shadow-xs transition-all">
-            <span class="material-symbols-outlined text-[18px] notranslate" translate="no">add_circle</span>
-            <span class="hidden sm:inline">+ Catat Batch</span>
-          </button>
-
-          <button class="relative p-2 rounded-xl text-gray-500 hover:bg-gray-100 transition-colors" type="button" title="Notifikasi">
-            <span class="material-symbols-outlined text-[22px] notranslate" translate="no">notifications</span>
-            <span class="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full ring-2 ring-white"></span>
-          </button>
-
-          <div class="h-8 w-px bg-gray-200 hidden md:block"></div>
-
-          <!-- User Profile -->
-          <div class="flex items-center gap-3">
-            <div class="text-right hidden md:flex flex-col">
-              <span class="text-[13px] font-bold text-gray-800 leading-tight">Bagus Wicaksono</span>
-              <span class="text-[11px] font-medium text-gray-400">Admin Operasional</span>
-            </div>
-            <div class="w-9 h-9 rounded-full bg-[#725c00] flex items-center justify-center text-white shadow-xs font-bold text-[14px]">
-              <span class="material-symbols-outlined text-[20px] notranslate" translate="no">person</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Container -->
-    <main class="w-full pt-28 px-4 sm:px-8 pb-16 flex-1 max-w-[1440px] mx-auto space-y-8">
+    <div dangerouslySetInnerHTML={{ __html: `
 
       <!-- Welcome Banner -->
       <div class="relative overflow-hidden bg-white rounded-2xl border border-[#e2e8dd] p-6 sm:p-8 shadow-xs">
@@ -710,7 +538,7 @@ export default function AdminPage() {
             </div>
           </div>
 
-          <a href="/wisata-edukasi" class="w-full py-2 rounded-xl bg-[#f1f5eb] text-[#2e6a41] font-bold text-[12px] hover:bg-[#e4edd9] transition-colors flex items-center justify-center gap-1.5">
+          <a href="/admin/wisata" class="w-full py-2 rounded-xl bg-[#f1f5eb] text-[#2e6a41] font-bold text-[12px] hover:bg-[#e4edd9] transition-colors flex items-center justify-center gap-1.5">
             <span class="material-symbols-outlined text-[16px] notranslate" translate="no">calendar_month</span>
             <span>Buka Kalender Booking Lengkap</span>
           </a>
@@ -763,11 +591,6 @@ export default function AdminPage() {
           </div>
         </div>
       </div>
-    </main>
-  </div>
-
-  <!-- Scripts -->
-  
-` }} />
+    ` }} />
   );
 }
