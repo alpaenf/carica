@@ -16,7 +16,7 @@ export default function Page() {
 <span class="material-symbols-outlined text-[16px] text-primary notranslate" translate="no" style="font-variation-settings: 'FILL' 1;">verified</span>
 <span>Jaringan Distribusi Resmi di 34 Kota Indonesia</span>
 </div>
-<h1 class="font-display-xl text-display-xl text-on-surface leading-tight">
+<h1 class="text-[32px] sm:text-[40px] lg:text-display-xl font-bold lg:font-display-xl text-on-surface leading-tight">
             Beli Langsung di Dekat Anda: <br class="hidden sm:inline">
 <span class="text-secondary font-extrabold">Temukan Gerai &amp; Reseller Resmi</span> Carica Gemilang
           </h1>

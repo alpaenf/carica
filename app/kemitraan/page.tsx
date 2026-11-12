@@ -20,7 +20,7 @@ export default function Page() {
               Peluang Agribisnis &amp; Distribusi Kuliner Tradisi Dieng
             </span>
 </div>
-<h1 class="font-display-xl text-display-xl text-on-surface font-extrabold tracking-tight leading-[1.1]">
+<h1 class="text-[32px] sm:text-[40px] lg:text-display-xl font-bold lg:font-extrabold text-on-surface tracking-tight leading-[1.15]">
             Bangun Bisnis Menguntungkan Bersama Produk Legendaris <span class="text-secondary">Carica Gemilang.</span>
 </h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">

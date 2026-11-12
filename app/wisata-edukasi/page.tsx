@@ -16,7 +16,7 @@ export default function Page() {
 <span class="material-symbols-outlined text-primary text-[18px] notranslate" translate="no">nature_people</span>
 <span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary">Program Agrowisata &amp; Edukasi Industri Kreatif Dieng</span>
 </div>
-<h1 class="font-display-xl text-display-xl text-on-surface font-extrabold tracking-tight">
+<h1 class="text-[32px] sm:text-[40px] lg:text-display-xl font-bold lg:font-extrabold text-on-surface tracking-tight leading-[1.15]">
             Belajar, Berkeliling, &amp; Rasakan <span class="text-secondary italic">Tradisi Olahan</span> Buah Carica Asli Dieng.
           </h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">

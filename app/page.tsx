@@ -23,9 +23,9 @@ export default function Page() {
 <span>Cita Rasa Autentik Dataran Tinggi Dieng • 2.093 mdpl</span>
 </div>
 <!-- Main Impact Headline -->
-<h1 class="text-display-xl font-display-xl text-on-surface tracking-tight leading-none mb-6">
+<h1 class="text-[32px] sm:text-[42px] lg:text-display-xl font-bold lg:font-display-xl text-on-surface tracking-tight leading-[1.15] lg:leading-none mb-6">
             Kelezatan Carica, <br class="hidden sm:inline">
-<span class="text-secondary font-extrabold relative inline-block">
+<span class="text-secondary font-bold lg:font-extrabold relative inline-block">
               Kekayaan Murni
               <svg class="absolute -bottom-2 left-0 w-full h-3 text-primary-container fill-current -z-10" preserveAspectRatio="none" viewBox="0 0 200 12">
 <path d="M0,7 Q50,0 100,6 T200,6 L200,12 L0,12 Z"></path>
