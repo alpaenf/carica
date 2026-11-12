@@ -23,9 +23,11 @@ function NavContent() {
       <div className="h-20 max-w-[1320px] mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 flex-shrink-0 group">
-          <div className="w-10 h-10 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-            <span className="material-symbols-outlined text-[24px] notranslate" translate="no">eco</span>
-          </div>
+          <img
+            src="/logo.webp"
+            alt="Logo Carica Gemilang"
+            className="w-10 h-10 rounded-full object-contain shadow-xs group-hover:scale-105 transition-transform"
+          />
           <div className="flex flex-col text-left">
             <span className="font-extrabold text-[#181d17] text-[18px] tracking-tight leading-tight flex items-center gap-1">
               <span>CARICA</span>

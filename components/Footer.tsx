@@ -8,9 +8,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-4 flex flex-col gap-4">
             <Link href="/" className="inline-flex items-center gap-2.5 py-1">
-              <span className="w-9 h-9 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs shrink-0">
-                <span className="material-symbols-outlined text-[22px] notranslate" translate="no">eco</span>
-              </span>
+              <img
+                src="/logo.webp"
+                alt="Logo Carica Gemilang"
+                className="w-10 h-10 rounded-full object-contain shadow-xs shrink-0"
+              />
               <span className="flex flex-col text-left">
                 <span className="font-bold text-white text-[17px] tracking-tight leading-tight flex items-center gap-1">
                   <span>CARICA</span>

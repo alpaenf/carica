@@ -70,9 +70,11 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
         {/* Brand Header */}
         <div className="h-16 px-5 flex items-center justify-between border-b border-[#e2e8dd] bg-[#f8faf5]">
           <Link href="/admin" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-lg bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-              <span className="material-symbols-outlined notranslate text-[20px]" translate="no">eco</span>
-            </div>
+            <img
+              src="/logo.webp"
+              alt="Logo Carica Gemilang"
+              className="w-8 h-8 rounded-full object-contain shadow-xs group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="font-bold text-[#2e6a41] text-[15px] leading-tight">Carica Gemilang</span>
               <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Admin & CMS Portal</span>
