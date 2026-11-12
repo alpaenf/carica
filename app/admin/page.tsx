@@ -19,8 +19,8 @@ export default function AdminDashboardPage() {
             </div>
 
             <div>
-              <h1 class="text-[26px] sm:text-[30px] font-extrabold text-[#181d17] tracking-tight">
-                Selamat Datang, <span class="text-[#2e6a41]">Pak Bagus Wicaksono</span>
+              <h1 class="text-[24px] sm:text-[28px] font-semibold text-[#181d17] tracking-tight">
+                Selamat Datang, <span class="text-[#2e6a41] font-bold">Pak Bagus Wicaksono</span>
               </h1>
               <p class="text-[14px] text-gray-500 mt-1 max-w-2xl leading-relaxed">
                 Ringkasan kendali mutu higienis, distribusi pasar nusantara, dan pemrosesan komoditas Carica Dieng hari ini.
@@ -204,7 +204,7 @@ export default function AdminDashboardPage() {
                 <div class="w-1/2 bg-[#2e6a41] rounded-t-sm ring-2 ring-[#f6c900]" style="height: 68%;" title="Aktual: 220 Karton (Hari ini)"></div>
                 <div class="w-1/2 bg-[#f6c900] rounded-t-sm" style="height: 60%;" title="Target: 220 Karton"></div>
               </div>
-              <span class="text-[12px] font-extrabold text-[#2e6a41]">Sel (Hari Ini)</span>
+              <span class="text-[12px] font-bold text-[#2e6a41]">Sel (Hari Ini)</span>
             </div>
 
             <!-- Rabu -->

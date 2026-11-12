@@ -73,7 +73,7 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
               <span className="material-symbols-outlined notranslate text-[20px]" translate="no">eco</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-extrabold text-[#2e6a41] text-[15px] leading-tight">Carica Gemilang</span>
+              <span className="font-bold text-[#2e6a41] text-[15px] leading-tight">Carica Gemilang</span>
               <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Admin & CMS Portal</span>
             </div>
           </Link>
