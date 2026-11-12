@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   title: "Carica Gemilang - Cita Rasa Asli Dataran Tinggi Dieng Wonosobo",
   description:
     "Produsen olahan carica Dieng premium berstandar CPPOB Grade A, bersertifikat BPOM RI & Halal MUI di Kejajar, Wonosobo.",
+  icons: {
+    icon: [
+      { url: "/logo.webp", type: "image/webp" },
+      { url: "/favicon.ico" },
+    ],
+    apple: [
+      { url: "/logo.webp", type: "image/webp" },
+    ],
+  },
 };
 
 export default function RootLayout({
