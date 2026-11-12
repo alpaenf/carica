@@ -8,13 +8,10 @@ import {
   PlusCircle,
   Truck,
   Users,
-  Compass,
   CalendarDays,
   Images,
   Handshake,
   ExternalLink,
-  ChevronRight,
-  ShieldCheck,
   Factory
 } from "lucide-react";
 
@@ -65,34 +62,34 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
 
       {/* Sidebar Drawer */}
       <aside
-        className={`fixed left-0 top-0 h-full w-72 bg-white z-50 flex flex-col border-r border-[#e2e8dd] shadow-sm transition-transform duration-300 ease-in-out ${
+        className={`fixed left-0 top-0 h-full w-64 bg-white z-50 flex flex-col border-r border-[#e2e8dd] shadow-sm transition-transform duration-300 ease-in-out font-sans ${
           isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
         }`}
       >
         {/* Brand Header */}
-        <div className="h-20 px-6 flex items-center justify-between border-b border-[#e2e8dd] bg-[#f8faf5]">
-          <Link href="/admin" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
-              <span className="material-symbols-outlined notranslate text-[24px]" translate="no">eco</span>
+        <div className="h-16 px-5 flex items-center justify-between border-b border-[#e2e8dd] bg-[#f8faf5]">
+          <Link href="/admin" className="flex items-center gap-2.5 group">
+            <div className="w-8 h-8 rounded-lg bg-[#f6c900] flex items-center justify-center text-[#2e6a41] shadow-xs group-hover:scale-105 transition-transform">
+              <span className="material-symbols-outlined notranslate text-[20px]" translate="no">eco</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-extrabold text-[#2e6a41] text-[17px] leading-tight">Carica Gemilang</span>
-              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Admin & CMS Portal</span>
+              <span className="font-extrabold text-[#2e6a41] text-[15px] leading-tight">Carica Gemilang</span>
+              <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Admin & CMS Portal</span>
             </div>
           </Link>
           <button
             onClick={onClose}
             className="lg:hidden p-1.5 rounded-lg text-gray-500 hover:bg-gray-100"
           >
-            <span className="material-symbols-outlined notranslate text-[20px]" translate="no">close</span>
+            <span className="material-symbols-outlined notranslate text-[18px]" translate="no">close</span>
           </button>
         </div>
 
-        {/* Navigation List */}
-        <div className="flex-1 overflow-y-auto px-4 py-5 space-y-6">
+        {/* Navigation List with more compact & sleek fonts */}
+        <div className="flex-1 overflow-y-auto px-3.5 py-4 space-y-5">
           {navSections.map((section, sIdx) => (
-            <div key={sIdx} className="space-y-1">
-              <span className="px-3 text-[11px] font-bold text-gray-400 uppercase tracking-wider block mb-2">
+            <div key={sIdx} className="space-y-0.5">
+              <span className="px-3 text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1.5">
                 {section.title}
               </span>
               {section.items.map((item, iIdx) => {
@@ -103,20 +100,20 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
                     key={iIdx}
                     href={item.href}
                     onClick={() => onClose()}
-                    className={`flex items-center justify-between px-3.5 py-2.5 rounded-xl font-semibold text-sm transition-all ${
+                    className={`flex items-center justify-between px-3 py-2 rounded-lg text-[13px] font-medium transition-all ${
                       isActive
                         ? "bg-[#e8f5e9] text-[#2e6a41] shadow-xs font-bold"
                         : item.highlight
-                        ? "bg-[#fef9e7] text-[#725c00] hover:bg-[#fdf3ce]"
+                        ? "bg-[#fef9e7] text-[#725c00] hover:bg-[#fdf3ce] font-semibold"
                         : "text-gray-600 hover:bg-[#f1f5eb] hover:text-[#181d17]"
                     }`}
                   >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <Icon className={`w-5 h-5 shrink-0 ${isActive ? "text-[#2e6a41]" : "text-gray-500"}`} />
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <Icon className={`w-4 h-4 shrink-0 ${isActive ? "text-[#2e6a41]" : "text-gray-400"}`} />
                       <span className="truncate">{item.label}</span>
                     </div>
                     {item.badge && (
-                      <span className={`px-2 py-0.5 rounded-full text-[11px] font-bold whitespace-nowrap shrink-0 ${item.badgeColor}`}>
+                      <span className={`px-1.5 py-0.5 rounded-full text-[10px] font-bold whitespace-nowrap shrink-0 ${item.badgeColor}`}>
                         {item.badge}
                       </span>
                     )}
@@ -128,30 +125,29 @@ export default function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
         </div>
 
         {/* Sidebar Footer */}
-        <div className="p-4 border-t border-[#e2e8dd] bg-[#f8faf5] flex flex-col gap-3">
-          <div className="p-3 bg-white rounded-xl border border-[#e2e8dd] flex items-center justify-between shadow-xs">
+        <div className="p-3.5 border-t border-[#e2e8dd] bg-[#f8faf5] flex flex-col gap-2.5">
+          <div className="p-2.5 bg-white rounded-lg border border-[#e2e8dd] flex items-center justify-between shadow-xs">
             <div className="flex flex-col">
-              <span className="text-[11px] text-gray-400 font-semibold uppercase">Pabrik Kejajar</span>
-              <span className="text-sm font-bold text-[#2e6a41]">Elevasi 2.093 mdpl</span>
+              <span className="text-[10px] text-gray-400 font-bold uppercase">Pabrik Kejajar</span>
+              <span className="text-xs font-bold text-[#2e6a41]">Elevasi 2.093 mdpl</span>
             </div>
-            <span className="px-2 py-1 bg-[#e8f5e9] text-[#2e6a41] rounded-lg text-xs font-bold">
+            <span className="px-1.5 py-0.5 bg-[#e8f5e9] text-[#2e6a41] rounded text-[10px] font-bold">
               CPPOB A
             </span>
           </div>
           <Link
             href="/"
             target="_blank"
-            className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white hover:bg-gray-50 text-gray-700 text-xs font-bold border border-[#e2e8dd] transition-colors"
+            className="flex items-center justify-between px-3 py-2 rounded-lg bg-white hover:bg-gray-50 text-gray-700 text-xs font-semibold border border-[#e2e8dd] transition-colors"
           >
             <div className="flex items-center gap-2">
-              <span className="material-symbols-outlined notranslate text-[18px]" translate="no">arrow_back</span>
+              <span className="material-symbols-outlined notranslate text-[16px]" translate="no">arrow_back</span>
               <span>Website Publik</span>
             </div>
-            <ExternalLink className="w-4 h-4 text-gray-400" />
+            <ExternalLink className="w-3.5 h-3.5 text-gray-400" />
           </Link>
         </div>
       </aside>
     </>
   );
 }
-

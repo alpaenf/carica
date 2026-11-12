@@ -11,7 +11,7 @@ interface AdminHeaderProps {
 
 export default function AdminHeader({ onToggleSidebar, title, subtitle }: AdminHeaderProps) {
   return (
-    <header className="sticky top-0 z-30 h-20 bg-white/95 backdrop-blur-xl border-b border-[#e2e8dd] px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
+    <header className="sticky top-0 z-30 h-16 bg-white/95 backdrop-blur-xl border-b border-[#e2e8dd] px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 font-sans">
       {/* Mobile Toggle & Search */}
       <div className="flex items-center gap-3 flex-1 max-w-xl">
         <button
